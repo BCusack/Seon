@@ -15,7 +15,7 @@
 
 ### **Introduction**
 
-The Seon Project envisions a transformative approach to AI companions, drawing inspiration from Brandon Sanderson's 2005 fantasy novel Elantris (Sanderson, ). In Elantris, Seons are etherial, sentient beings linked to an individual. These entities are deeply personal and serve as companions or advisors to their bonded humans, embodying themes of connection and purpose within the story's rich world-building.
+The Seon Project envisions a transformative approach to AI companions, drawing inspiration from Brandon Sanderson's 2005 fantasy novel Elantris (Sanderson, 2005). In Elantris, Seons are etherial, sentient beings linked to an individual. These entities are deeply personal and serve as companions or advisors to their bonded humans, embodying themes of connection and purpose within the story's rich world-building.
 
 This shifts beyond the current landscape of task-oriented UI computer bound virtual assistants to a new paradigm of ethereal, personalised, and proactive AI entities designed to deeply understand, support, and seamlessly integrate into an individuals daily life as mentioned in the book. 
 
@@ -29,7 +29,7 @@ The intended primary communication interface is a discreet and unobtrusive earbu
 
 ### **Passive Companionship and Support**
 
-The Seon is designed to be more than just a reactive tool; it is envisioned as a proactive and empathetic companion that anticipates a user needs and offers support that extends beyond basic task completion.  The goal is to cultivate a genuine sense of companionship and care, fostering a supportive and encouraging relationship with the user.  A Seon's system is designed to identify potential issues related to individuals wellbeing, proactively offering suggestions and resources for improvement (Picard, 1997).  This proactive approach is underpinned by an emotional matrix, informed by a comprehensive psychological knowledge base, which aids the Seon in understanding and responding appropriately to the user's emotional state. This draws on research in affective computing, which explores how technology can recognize, interpret, and respond to human emotions.
+The Seon is designed to be more than just a reactive tool; it is envisioned as a proactive and empathetic companion that anticipates a user needs and offers support that extends beyond basic task completion.  The goal is to cultivate a genuine sense of companionship and care, fostering a supportive and encouraging relationship with the user.  A Seon's system is designed to identify potential issues related to individuals wellbeing, proactively offering suggestions and resources for improvement (Picard, 1997).  This proactive approach is underpinned by an emotional matrix, informed by a comprehensive psychological knowledge base, which aids the Seon in understanding and responding appropriately to the user's emotional state. This draws on research in affective computing, which explores how technology can recognize, interpret, and respond to human emotions (Bin et al., 2024).
 
 ### **Always On, Just For You: Yours Forever**
 
@@ -63,6 +63,7 @@ The following steps are crucial for the continued development and realization of
 **References**
 
 *  Brandon Sanderson, E. (2005). *Elantris*. Tor Books.
+*  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
 *   Chomsky, N., & Halle, M. (1968). *The sound pattern of English*. Harper & Row.
 *   Hinton, G. E., Rumelhart, D. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature*, *323*(6070), 533-536.
 *   Kotler, P., & Keller, K. L. (2015). *Marketing management*. Pearson Education Limited.
