@@ -9,6 +9,9 @@ A place for communication, interactions and ideations of the next AI paradigm.
 - A completed project
 - Static documents
 
+## Why I created this research space
+Sometimes I get a brain tick, an idea that needs to be explored. This is one of those ideas. I wanted to explore the concept of AI companionship and how it could evolve in the future. This is a living document that will evolve as the project evolves.
+
 ## White paper
 The white paper is a living document that will be updated as the project evolves. [Read the white paper](Whitepaper.md)
 
