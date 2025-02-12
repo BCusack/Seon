@@ -12,12 +12,14 @@ A place for communication, interactions and ideations of the next AI paradigm.
 ## Why I created this research space
 Sometimes I get a brain tick, an idea that needs to be explored. This is one of those ideas. I wanted to explore the concept of AI companionship and how it could evolve in the future. This is a living document that will evolve as the project evolves.
 
+I chose GitHub as the platform for this research as it is a great place to collaborate and share ideas.
+
 ## White paper
-The white paper is a living document that will be updated as the project evolves. [Read the white paper](Whitepaper.md)
+The white paper is the main focus. This is where the definition of the Seon and points of focus live. [Read the white paper](Whitepaper.md)
 
 ## Extended
-The extended document is a living document that will be updated as the project evolves. [Read the extended document](Extended/communication_interfacing.md)
-This refers to extended insights and expansions on the white paper discussion.
+The extended document are documents that expand on the ideas of the white paper. 
+This refers to extended insights and expansions on the white paper discussion.[Read the extended document](Extended/communication_interfacing.md)
 
 
 ## License
