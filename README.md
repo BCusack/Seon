@@ -25,4 +25,4 @@ This refers to extended insights and expansions on the white paper discussion.
 This research is licensed under the Creative Commons Attribution 4.0 International License. See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contributing
-Feel free to contribute to this project by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
+Feel free to contribute to this project by submitting a pull request or event send in an issue to open a discussion. For major changes, please open an issue first to discuss what you would like to change.
