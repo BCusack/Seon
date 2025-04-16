@@ -40,7 +40,7 @@ A Seon establishes an exclusive and enduring bond with its user through a holist
 - Location and environmental markers to contextualize the origin of the bond and enhance security.
 - Additional contextual data (such as device usage patterns or ambient conditions) to further individualize the connection.
 
-From this genesis event onward, the Seon continually adapts and refines its understanding of the user through ongoing learning. Over time, it becomes more attuned to the user’s habits, preferences, and communication style.
+From this genesis event onward, the Seon continually adapts and refines its understanding of the user through ongoing learning, becoming more attuned to the user’s habits, preferences, and communication style. This approach draws from research on adaptive and personalized human-computer interaction (Fiebrink and Caramiaux 2018), the importance of long-term human-agent relationships (Bickmore and Picard 2005), and foundational work in affective computing (Picard 1997).
 
 This dual-layered approach ensures that the Seon responds exclusively to its designated user, providing a deeply personalized, private, and enduring AI companionship experience. The linking mechanism is crucial for both security and the development of the Seon’s emotional matrix, as the AI learns and adapts specifically to the individual user’s personality and preferences. This user-linked nature of the Seon reinforces the concept of "yours forever," emphasizing its personal and irreplaceable character.
 
@@ -75,10 +75,12 @@ The following steps are crucial for the continued development and realization of
 
 *  Brandon Sanderson, E. (2005). *Elantris*. Tor Books.
 *  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
-*   Chomsky, N., & Halle, M. (1968). *The sound pattern of English*. Harper & Row.
-*   Hinton, G. E., Rumelhart, D. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature*, *323*(6070), 533-536.
-*   Kotler, P., & Keller, K. L. (2015). *Marketing management*. Pearson Education Limited.
-*   Picard, R. W. (1997). *Affective computing*. MIT press.
-*   Taddeo, M., & Floridi, L. (2018). How AI can be a force for good. *Science*, *361*(6404), 751-752.
-*   Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. *Advances in neural information processing systems*, *30*.
+*  Bickmore, T., & Picard, R. W. (2005). [Establishing and Maintaining Long-Term Human-Computer Relationships](https://dl.acm.org/doi/10.1145/1067860.1067867). ACM Transactions on Computer-Human Interaction, 12(2), 293-327.
+*  Chomsky, N., & Halle, M. (1968). *The sound pattern of English*. Harper & Row.
+*  Fiebrink, R., & Caramiaux, B. (2018). [The Machine Learning for Musicians and Artists Landscape](https://doi.org/10.1145/3137260). ACM Computing Surveys, 51(3), 1–36.
+*  Hinton, G. E., Rumelhart, D. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature*, *323*(6070), 533-536.
+*  Kotler, P., & Keller, K. L. (2015). *Marketing management*. Pearson Education Limited.
+*  Picard, R. W. (1997). *Affective computing*. MIT press.
+*  Taddeo, M., & Floridi, L. (2018). How AI can be a force for good. *Science*, *361*(6404), 751-752.
+*  Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. *Advances in neural information processing systems*, *30*.
 
