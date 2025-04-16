@@ -56,7 +56,11 @@ Privacy and security are paramount considerations in the Seons design and implem
 
 ### **Technical Considerations**
 
-Seons also leverage cloud infrastructure for scalable storage and processing of vast amounts of memory, hashing data, and facilitating real-time LLM interactions.  The device itself is intended to have a lightweight hardware profile, potentially achieved through integration with other linked devices.  Further development will focus on optimizing the hardware and software components to ensure seamless performance and energy efficiency.
+The Seon ecosystem is engineered for seamless, real-time interaction, prioritizing both user privacy and system resilience. A key architectural feature is device meshing: Seons are designed to operate across a distributed mesh of personal devices—such as wearables, smartphones, and home assistants—ensuring uninterrupted, context-aware functionality wherever the user goes. This approach leverages advances in decentralized networking and mesh communication, allowing the Seon to securely synchronize state and memory while minimizing latency (Hummen et al. 2013; Zhou et al. 2022).
+
+To support always-on, low-latency interaction, Seon employs emerging fast communication protocols such as QUIC and Matter, which offer superior speed, reliability, and security compared to legacy solutions (Iyengar and Thomson 2021; CSA 2023). The use of such protocols enables real-time updates and smooth handoff between devices, creating a continuous user experience.
+
+Seon’s infrastructure employs a hybrid approach: privacy-critical data is processed and stored locally on user devices whenever possible, while scalable cloud services are utilized for computationally intensive tasks and long-term memory storage. All inter-device and cloud communications are end-to-end encrypted, incorporating cutting-edge cryptographic standards to maintain data integrity and confidentiality. This architecture is designed with future scalability in mind, supporting rapid adoption of new hardware and communication standards as they emerge.
 
 ### **Conclusion**
 
@@ -77,10 +81,14 @@ The following steps are crucial for the continued development and realization of
 *  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
 *  Bickmore, T., & Picard, R. W. (2005). [Establishing and Maintaining Long-Term Human-Computer Relationships](https://dl.acm.org/doi/10.1145/1067860.1067867). ACM Transactions on Computer-Human Interaction, 12(2), 293-327.
 *  Chomsky, N., & Halle, M. (1968). *The sound pattern of English*. Harper & Row.
+*  Connectivity Standards Alliance (CSA). 2023. “Matter: The Foundation for Connected Things.” https://csa-iot.org/all-solutions/matter/.
 *  Fiebrink, R., & Caramiaux, B. (2018). [The Machine Learning for Musicians and Artists Landscape](https://doi.org/10.1145/3137260). ACM Computing Surveys, 51(3), 1–36.
 *  Hinton, G. E., Rumelhart, D. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature*, *323*(6070), 533-536.
+*  Hummen, René, et al. 2013. “A Cloud Design for User-Controlled Storage and Processing of Sensor Data.” In Proceedings of the 2013 IEEE International Conference on Cloud Engineering, 223–232.
+*  Iyengar, Jana, and Martin Thomson. 2021. “QUIC: A UDP-Based Multiplexed and Secure Transport.” RFC 9000, Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9000.
 *  Kotler, P., & Keller, K. L. (2015). *Marketing management*. Pearson Education Limited.
 *  Picard, R. W. (1997). *Affective computing*. MIT press.
 *  Taddeo, M., & Floridi, L. (2018). How AI can be a force for good. *Science*, *361*(6404), 751-752.
 *  Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. *Advances in neural information processing systems*, *30*.
+*  Zhou, Xinxin, et al. 2022. “A Survey on Edge Computing in Internet of Things: Architecture, Key Technologies, and Open Issues.” IEEE Communications Surveys & Tutorials 24 (2): 1119–1152.
 
