@@ -56,7 +56,7 @@ Privacy and security are paramount considerations in the Seons design and implem
 
 ### **Technical Considerations**
 
-The Seon ecosystem is engineered for seamless, real-time interaction, prioritizing both user privacy and system resilience. A key architectural feature is device meshing: Seons are designed to operate across a distributed mesh of personal devices—such as wearables, smartphones, and home assistants—ensuring uninterrupted, context-aware functionality wherever the user goes. This approach leverages advances in decentralized networking and mesh communication, allowing the Seon to securely synchronize state and memory while minimizing latency (Hummen et al. 2013; Zhou et al. 2022).
+The Seon network ecosystem is engineered for seamless, real-time interaction, prioritizing both user privacy and system resilience. A key architectural feature is device meshing: Seons are designed to take advantage of a distributed mesh of devices—such as wearables, smartphones, and home assistants—ensuring uninterrupted, context-aware functionality wherever the user goes. This approach leverages advances in decentralized networking and mesh communication, allowing the Seon to securely synchronize state and memory while minimizing latency (Hummen et al. 2013; Zhou et al. 2022).
 
 To support always-on, low-latency interaction, Seon employs emerging fast communication protocols such as QUIC and Matter, which offer superior speed, reliability, and security compared to legacy solutions (Iyengar and Thomson 2021; CSA 2023). The use of such protocols enables real-time updates and smooth handoff between devices, creating a continuous user experience.
 
