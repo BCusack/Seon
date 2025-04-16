@@ -29,6 +29,7 @@ This research is licensed under the Creative Commons Attribution 4.0 Internation
 - Brian Cusack
 - Perplexity AI
 - Google NotebookLM
+- GPT-4.1
 
 ## Disclosure
 This work was created by in depth research using Google NotebookLM and Perplexity AI. The outputs helped develop the ideas and concepts in this research. Although the works were created using these tools, the ideas and concepts are the authors own. 
