@@ -71,7 +71,7 @@ The following steps are crucial for the continued development and realization of
 *   Prototype development of a minimum viable product (MVP) to test core functionalities and gather user feedback.
 *   Iterative development and refinement of the MVP based on user feedback and advancements in related technologies.
 
-**References**
+## **References**
 
 *  Brandon Sanderson, E. (2005). *Elantris*. Tor Books.
 *  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
