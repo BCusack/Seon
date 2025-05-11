@@ -15,11 +15,11 @@
 
 ### **Introduction**
 
-The Seon Project envisions a transformative approach to AI companions, drawing inspiration from Brandon Sanderson's 2005 fantasy novel Elantris (Sanderson, 2005). In Elantris, Seons are etherial, sentient beings linked to an individual. These entities are deeply personal and serve as companions or advisors to their bonded humans, embodying themes of connection and purpose within the story's rich world-building.
+The Seon Project envisions a transformative approach to AI companions and our interactions, drawing inspiration from such works as Brandon Sanderson's 2005 fantasy novel Elantris (Sanderson, 2005). In Elantris, Seons are etherial, sentient beings linked to an individual. These entities are deeply personal and serve as companions or advisors to their bonded humans, embodying themes of connection and purpose within the story's rich world-building.
 
-This shifts beyond the current landscape of task-oriented UI computer bound virtual assistants to a new paradigm of ethereal, personalised, and proactive AI entities designed to deeply understand, support, and seamlessly integrate into an individuals daily life as mentioned in the book. 
+This shifts beyond the current offerings of task-oriented UI computer bound virtual assistants to a new paradigm of ethereal, personalised, and proactive AI entities designed to deeply understand, support, and seamlessly integrate into an individuals daily life as mentioned in the book. A Seon aims to foster a strong and meaningful connection with the individual, ultimately contributing to a healthier and happier life. 
 
-A Seon aims to foster a strong and meaningful connection with the individual, ultimately contributing to a healthier and happier life. This white paper will work to delve into the core functionalities, key features, and technical considerations that distinguish the Seon, with a particular emphasis on the future of AI communication, passive companionship, personalized support, memory management, and secure information handling.  This exploration will draw upon current research in artificial intelligence, human-computer interaction, and related fields to contextualize the Seon's potential impact.
+This white paper will work to delve into the core functionalities, key features, and technical considerations that charactorise the Seon, with a particular emphasis on the future of AI communication, passive companionship, personalised support, memory management techniques, and secure information handling.  This exploration will draw upon current research in artificial intelligence, human-computer interaction, and related fields to contextualize the Seon's potential impact.
 
 ### **The Future of AI Communication and Interface**
 
