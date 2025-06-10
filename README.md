@@ -36,3 +36,10 @@ This work was created by in depth research using Google NotebookLM and Perplexit
 
 ## Contributing
 Feel free to contribute to this project by submitting a pull request or even just send in an issue to open a discussion. For major changes, please open an issue first to discuss what you would like to change.
+
+## Support
+If you find this project useful, please consider supporting it. Your support helps keep the project alive and allows for further research and development.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31G9CXW)
+
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange.svg)](https://patreon.com/BrianCusack)
