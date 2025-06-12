@@ -43,3 +43,6 @@ If you find this project useful, please consider supporting it. Your support hel
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31G9CXW)
 
 [![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange.svg)](https://patreon.com/BrianCusack)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/falcon78){:target="_blank"}
+
