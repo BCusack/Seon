@@ -36,7 +36,9 @@ The intended primary communication interface will be a discreet and unobtrusive 
 
 ### **Passive Companionship and Support**
 
-The Seon is designed to be more than just a reactive tool; it is envisioned as a proactive and empathetic companion that anticipates a user needs and offers support that extends beyond basic task completion.  The goal is to cultivate a genuine sense of companionship and care, fostering a supportive and encouraging relationship with the user.  A Seon's system is designed to identify potential issues related to individuals wellbeing, proactively offering suggestions and resources for improvement (Picard, 1997).  This proactive approach is underpinned by an emotional matrix, informed by a comprehensive psychological knowledge base, which aids the Seon in understanding and responding appropriately to the user's emotional state. This draws on research in affective computing, which explores how technology can recognize, interpret, and respond to human emotions (Bin et al., 2024).
+The Seon is designed to be more than just a reactive tool; it is envisioned as a proactive and empathetic companion that anticipates a user's needs and offers support that extends beyond basic task completion. The goal is to cultivate a genuine sense of companionship and care, fostering a supportive and encouraging relationship with the user.
+
+Designed to identify potential issues related to an individual's wellbeing and proactively offering support, guidance and resources for navigating challenges (Picard, 1997). This proactive approach is underpinned by an emotional matrix, informed by a comprehensive psychological knowledge base, which aids in understanding and responding appropriately to the user's emotional state. This draws on research in affective computing, which explores how technology can recognise, interpret, and respond to human emotions (Bin et al., 2024).
 
 
 ### **Always On & Contextual Awareness**
