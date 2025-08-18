@@ -19,7 +19,10 @@
 
 ### **Introduction**
 
+
 The Seon Project envisions a transformative approach to AI companions and our interactions, drawing inspiration from such works as Brandon Sanderson's 2005 fantasy novel Elantris (Sanderson, 2005). In Elantris, Seons are etherial, sentient beings linked to an individual. These entities are deeply personal and serve as companions or advisors to their bonded humans, embodying themes of connection and purpose within the story's rich world-building.
+
+What if you could have an AI companion that is always present, deeply attuned to your needs, and capable of understanding the nuances of your life—not just as a tool, but as a proactive, adaptive, and trusted presence? What if this companion could learn and grow with you, anticipate your needs, and help you navigate the complexities of daily life, all while safeguarding your privacy and fostering genuine connection? The Seon project explores this possibility, aiming to define the next generation of AI companionship as described throughout this white paper.
 
 This shifts beyond the current offerings of task-oriented UI computer bound virtual assistants to a new paradigm of ethereal, personalised, and proactive AI entities designed to deeply understand, support, and seamlessly integrate into an individuals daily life as mentioned in the book. A Seon aims to foster a strong and meaningful connection with the individual, ultimately contributing to a healthier and happier life. 
 
@@ -27,9 +30,9 @@ This white paper will work to delve into the core functionalities, key features,
 
 ### **The Future of AI Communication and Interface**
 
-Natural language interactions form the cornerstone of a Seon's functionality, enabling seamless and intuitive communication.  This is achieved through advanced Natural Language Processing (NLP) techniques, including adaptive lightweight NLP models that learn and refine their understanding of individual user communication patterns over time (Chomsky & Halle, 1968).  This adaptability allows a Seon to better interpret nuances of the individuals use of language, including sentiment, context, and intent, leading to more meaningful and relevant interactions.  
+Natural language interactions will be fundamental to a Seon's functionality, enabling seamless and intuitive communication. Achieving this requires leveraging advances in natural language processing (NLP) and adaptive learning, so that the Seon can rapidly interpret and respond to the nuances of individual user language, sentiment, context, and intent. While the specific models and architectures are yet to be determined, the Seon must be capable of fast, context-aware adaptation—learning from ongoing interactions to provide increasingly meaningful and relevant support. This approach draws on the evolution of NLP and conversational AI, with a focus on personalisation, speed, and privacy.
 
-The intended primary communication interface is a discreet and unobtrusive earbud-with-microphone like device leveraging external device meshing technology, promoting continuous accessibility without disrupting daily activities.  The Seon will leverage real-time Large Language Model (LLM) interactions to augment its knowledge base, ensuring access to up-to-date information and insights (Vaswani et al., 2017). This dynamic interaction with LLMs allows a Seon to respond to complex queries, engage in creative content interactions, and provide personalized recommendations based on the latest information available in a holistic manor.
+The intended primary communication interface will be a discreet and unobtrusive earbud-with-microphone like device, external device meshing technology, promoting continuous accessibility without disrupting daily activities. The Seon will utilise real-time Large Language Model (LLM) interactions to augment its knowledge base, ensuring access to up-to-date information and insights (Vaswani et al., 2017). Through dynamic interaction with LLMs, the Seon will be able to interpret complex queries, synthesise information from diverse sources, and generate creative, contextually relevant responses. This adaptability enables the Seon to offer nuanced support, anticipate user needs, and provide personalised recommendations that reflect the most current and comprehensive understanding of the user's world.
 
 ### **Passive Companionship and Support**
 
@@ -63,13 +66,20 @@ This dual-layered approach ensures that the Seon responds exclusively to its des
 
 *Protocols for secure re-linking or device migration will be implemented to maintain continuity and trust, should the user need to change or recover their Seon device.*
 
+
 ### **Long-Term and Short-Term Memory Management**
 
-Seon's employ a dynamic memory system that efficiently manages both short-term and long-term memory, enabling quick and contextually relevant responses.  The system continuously learns from user interactions over time, allowing for increasingly personalized and adaptive responses (Hinton et al., 1986).  Machine Learning (ML) algorithms are employed to learn user preferences, predict needs, and personalize recommendations. This adaptive memory system allows a Seon to recall past conversations, recognize patterns in user behavior, and provide increasingly insightful and relevant support.
+Seon employs a dynamic, adaptive memory system that manages both short-term and long-term memory, inspired by but more flexible than the human brain. Unlike static architectures, Seon can create, dissolve, and reorganize memory categories on demand, supporting a highly personalized and evolving understanding of the user.
+
+Short-term memory in Seon is context-driven and ephemeral, used for immediate reasoning and interaction. Only information deemed salient or relevant is promoted to long-term memory, ensuring privacy and efficiency. Long-term memory is persistent and structured, allowing Seon to recall past conversations, recognize behavioral patterns, and provide increasingly insightful support over time (Hinton, Rumelhart, and Williams 1986).
+
+Seon’s memory architecture supports the creation of knowledge-graph-like connections between memory nodes. This enables the system to form rich, relational links between people, events, preferences, and experiences—mirroring the associative nature of human memory, but with greater dynamism and scalability. Such relational memory structures are informed by recent advances in graph neural networks and relational inductive biases (Battaglia et al. 2018).
+
+The allocation and management of memory is guided by principles of salience, relevance, and user privacy. The Seon can generalize from past experiences, adapt to new contexts, and even restructure its memory graph as the user’s life and needs evolve (Hassabis et al. 2017; Khandelwal et al. 2019). This approach enables the Seon to deliver contextually aware, proactive support while maintaining a strong commitment to data minimization and user control.
 
 ### **Securing Your Information and Communication in the Wild**
 
-Privacy and security are paramount considerations in the Seons design and implementation.  User data is secured using designated "set markers" as a lock-in mechanism, ensuring user-centric control and access.  the Seon utilises a custom hashing algorithm for storing and interpreting user data, creating a unique hash for secure data management.  This approach aims to minimize the risk of unauthorised access and data breaches.  Furthermore, ethical AI development principles are integrated throughout the project, emphasising transparency, fairness, and accountability (Taddeo & Floridi, 2018).
+Privacy and security are paramount considerations in the Seon’s design and implementation. User data is secured using designated "set markers" as a lock-in mechanism, ensuring user-centric control and access. The Seon utilizes a custom hashing algorithm for storing and interpreting user data, creating a unique hash for secure data management. This approach aims to minimize the risk of unauthorized access and data breaches. Furthermore, ethical AI development principles are integrated throughout the project, emphasizing transparency, fairness, and accountability (Taddeo & Floridi, 2018).
 
 ### **Technical Considerations**
 
@@ -93,7 +103,12 @@ The following steps are crucial for the continued development and realization of
 *   Iterative development and refinement of the MVP based on user feedback and advancements in related technologies.
 
 
+
 ## **References**
+
+*  Hassabis, Demis, Dharshan Kumaran, Christopher Summerfield, and Matthew Botvinick. 2017. "Neuroscience-Inspired Artificial Intelligence." *Neuron* 95, no. 2: 245-258. https://www.sciencedirect.com/science/article/pii/S0896627317305093
+*  Battaglia, Peter W., Jessica B. Hamrick, Victor Bapst, et al. 2018. "Relational inductive biases, deep learning, and graph networks." arXiv:1806.01261. https://arxiv.org/abs/1806.01261
+*  Khandelwal, Urvashi, Angela Fan, Dan Jurafsky, and Luke Zettlemoyer. 2019. "Generalization through Memorization: Nearest Neighbor Language Models." arXiv:1911.00172. https://arxiv.org/abs/1911.00172
 
 *  Baars, Bernard J. 1988. *A Cognitive Theory of Consciousness*. Cambridge: Cambridge University Press. https://www.cambridge.org/core/books/a-cognitive-theory-of-consciousness/2A1A2A1A2A1A2A1A2A1A2A1A2A1A2A1A
 *  Itti, Laurent, and Christof Koch. 2001. "Computational Modelling of Visual Attention." *Nature Reviews Neuroscience* 2, no. 3: 194–203. https://www.nature.com/articles/35058500
