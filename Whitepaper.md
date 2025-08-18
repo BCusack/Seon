@@ -2,16 +2,20 @@
 ## *The AI Companion*
 
 ### Contents
-- [Introduction](#introduction)
-- [The Future of AI Communication and Interface](#the-future-of-ai-communication-and-interface)
-- [Passive Companionship and Support](#passive-companionship-and-support)
-- [Always On, Just For You: Yours Forever](#always-on-just-for-you-yours-forever)
-- [Long-Term and Short-Term Memory Management](#long-term-and-short-term-memory-management)
-- [Securing Your Information and Communication in the Wild](#securing-your-information-and-communication-in-the-wild)
-- [Technical Considerations](#technical-considerations)
-- [Conclusion](#conclusion)
-- [Next Steps](#next-steps)
-- [References](#references)
+- [White Paper: The Seon Project](#white-paper-the-seon-project)
+  - [*The AI Companion*](#the-ai-companion)
+    - [Contents](#contents)
+    - [**Introduction**](#introduction)
+    - [**The Future of AI Communication and Interface**](#the-future-of-ai-communication-and-interface)
+    - [**Passive Companionship and Support**](#passive-companionship-and-support)
+    - [**Always On \& Contextual Awareness**](#always-on--contextual-awareness)
+    - [**Exclusive \& Enduring Bond: Yours Forever**](#exclusive--enduring-bond-yours-forever)
+    - [**Long-Term and Short-Term Memory Management**](#long-term-and-short-term-memory-management)
+    - [**Securing Your Information and Communication in the Wild**](#securing-your-information-and-communication-in-the-wild)
+    - [**Technical Considerations**](#technical-considerations)
+    - [**Conclusion**](#conclusion)
+    - [**Next Steps**](#next-steps)
+  - [**References**](#references)
 
 ### **Introduction**
 
@@ -31,7 +35,20 @@ The intended primary communication interface is a discreet and unobtrusive earbu
 
 The Seon is designed to be more than just a reactive tool; it is envisioned as a proactive and empathetic companion that anticipates a user needs and offers support that extends beyond basic task completion.  The goal is to cultivate a genuine sense of companionship and care, fostering a supportive and encouraging relationship with the user.  A Seon's system is designed to identify potential issues related to individuals wellbeing, proactively offering suggestions and resources for improvement (Picard, 1997).  This proactive approach is underpinned by an emotional matrix, informed by a comprehensive psychological knowledge base, which aids the Seon in understanding and responding appropriately to the user's emotional state. This draws on research in affective computing, which explores how technology can recognize, interpret, and respond to human emotions (Bin et al., 2024).
 
-### **Always On, Just For You: Yours Forever**
+
+### **Always On & Contextual Awareness**
+
+Empowered by continuous, real-time awareness, designed to be always on—listening and drawing context from the user’s environment and interactions. This persistent attentiveness enables Seon to provide timely, relevant support and anticipate user needs.
+
+The approach to selective context retention in Seon is grounded in both cognitive science and artificial intelligence research. The Global Workspace Theory describes how only salient information is promoted to conscious awareness and long-term memory in humans (Baars 1988). In AI, models of selective attention and event segmentation—such as those by Itti and Koch (2001) and Zacks and Swallow (2007)—demonstrate how systems can filter continuous input, retaining only contextually significant events. Modern neural architectures, including Neural Turing Machines (Graves, Wayne, and Danihelka 2014), show how artificial agents can learn to selectively read, write, and forget information, supporting both privacy and efficiency. These approaches inspire Seon's ephemeral context buffer and salience-based memory transfer, ensuring that only what truly matters to the user is retained.
+
+To safeguard privacy and security, Seon avoids keeping permanent logs of all audio or interactions. Instead, it employs a temporary, local context buffer—an ephemeral memory processed in real time and discarded unless specific information is identified as important for long-term support.
+
+For example, if the user’s friend Jill frequently visits and talks about her husband Bob’s illness, the Seon may recognize the importance of these relationships. Rather than storing all conversations, the Seon will promote references to Jill and Bob into a relationship memory and friend context memory, allowing it to provide more meaningful support in the future. Only salient, contextually significant information is selectively transferred from short-term to long-term memory, based on ongoing interaction and relevance to the user’s life.
+
+This approach balances the benefits of continuous, context-rich companionship with strong privacy protections, ensuring that only what truly matters to the user is retained.
+
+### **Exclusive & Enduring Bond: Yours Forever**
 
 A Seon establishes an exclusive and enduring bond with its user through a holistic "genesis event" at first activation. This event combines multiple elements:
 
@@ -75,7 +92,13 @@ The following steps are crucial for the continued development and realization of
 *   Prototype development of a minimum viable product (MVP) to test core functionalities and gather user feedback.
 *   Iterative development and refinement of the MVP based on user feedback and advancements in related technologies.
 
+
 ## **References**
+
+*  Baars, Bernard J. 1988. *A Cognitive Theory of Consciousness*. Cambridge: Cambridge University Press. https://www.cambridge.org/core/books/a-cognitive-theory-of-consciousness/2A1A2A1A2A1A2A1A2A1A2A1A2A1A2A1A
+*  Itti, Laurent, and Christof Koch. 2001. "Computational Modelling of Visual Attention." *Nature Reviews Neuroscience* 2, no. 3: 194–203. https://www.nature.com/articles/35058500
+*  Zacks, Jeffrey M., and Keith M. Swallow. 2007. "Event Segmentation." *Current Directions in Psychological Science* 16, no. 2: 80–84. https://journals.sagepub.com/doi/10.1111/j.1467-8721.2007.00480.x
+*  Graves, Alex, Greg Wayne, and Ivo Danihelka. 2014. "Neural Turing Machines." arXiv preprint arXiv:1410.5401. https://arxiv.org/abs/1410.5401
 
 *  Brandon Sanderson, E. (2005). *Elantris*. Tor Books.
 *  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
