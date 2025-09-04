@@ -26,7 +26,7 @@ What if you could have an AI companion that is always present, deeply attuned to
 
 This shifts beyond the current offerings of task-oriented UI computer bound virtual assistants to a new paradigm of ethereal, personalised, and proactive AI entities designed to deeply understand, support, and seamlessly integrate into an individuals daily life. A Seon aims to foster a strong and meaningful connection with the individual, ultimately contributing to a healthier and happier life. 
 
-This white paper will work to delve into the core functionalities, key features, and technical considerations that charactorise the Seon, with a particular emphasis on the future of AI communication, passive companionship, personalised support, memory management techniques, and secure information handling.  This exploration will draw upon current research in artificial intelligence, human-computer interaction, and related fields to contextualize the Seon's potential impact.
+The following white paper will work to delve into the core functionalities, key features, and technical considerations that charactorise the Seon, with a particular emphasis on the future of AI communication, passive companionship, personalised support, memory management techniques, and secure information handling.  This exploration will draw upon current research in artificial intelligence, human-computer interaction, and related fields to contextualize the Seon's potential impact.
 
 ### **The Future of AI Communication and Interface**
 
