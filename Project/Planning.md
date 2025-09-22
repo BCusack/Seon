@@ -8,6 +8,7 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 
 ## Objectives (12–18 months)
 - Validate problem–solution fit for an always-on, privacy-first AI companion.
+- Complete a structured technology discovery and feasibility assessment (build‑vs‑buy, latency, privacy, and reliability constraints).
 - Build and test an MVP across 2–3 usage domains (wellbeing support, micro-assistance, and context-awareness).
 - Secure non-dilutive grant funding to achieve technical milestones and ethical compliance readiness.
 - Establish partnerships for hardware prototyping, privacy research, and pilot deployments.
@@ -15,8 +16,10 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 ## Phased Roadmap
 - Phase 0: Foundations (Month 0–2)
   - Technical: architecture choices, safety/ethics framework, risk register.
+  - Technology discovery: survey candidate stacks (ASR/TTS, on-device inference, LLM orchestration), run feasibility spikes, and produce a decision matrix with trade-offs and costs.
   - Research: user needs discovery, refine personas, pilot protocols.
   - Ops: grant pipeline creation, governance setup, initial letters of support.
+  - Gating criteria: architecture option(s) shortlisted with rationale; feasibility spikes demonstrate target latency and privacy posture on representative hardware; build‑vs‑buy decisions recorded; privacy threat model v1.
 - Phase 1: MVP v1 (Month 3–6)
   - Deliverables: ear-clip interaction prototype (mock hardware), admin dashboard app for analysis and controls, core LLM integration, ephemeral context buffer.
   - Gating criteria: live end-to-end demo, privacy threat model v1, 20 pilot users recruited.
@@ -59,6 +62,9 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 Total indicative: £730k–£1.27m (seek grants to cover 40–70%; remainder via in-kind/credits/match)
 
 ## Work Packages (WPs) & KPIs
+- WP0: Technology Discovery
+  - Outputs: discovery plan, evaluation matrix (build‑vs‑buy, cost/latency/privacy), feasibility spike reports, recommended architecture baseline.
+  - KPIs: latency target on reference device (e.g., <350ms E2E voice loop), on-device/private-by-default coverage %, projected monthly compute cost within budget envelope, decision record completeness.
 - WP1: Core Interaction & Safety
   - Outputs: low-latency voice loop, policy guardrails, fallback UX.
   - KPIs: <350ms perceived latency; false-positive/negative safety rates; session completion rate.
