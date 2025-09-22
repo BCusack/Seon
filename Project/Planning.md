@@ -40,7 +40,12 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 
 ## Grant Strategy (Australia‑focused)
 - Targets (Australia):
-  - Federal: Accelerating Commercialisation/Industry Growth Program (IGP), CRC‑P (Cooperative Research Centres Projects), ARC Linkage, MRFF/NHMRC (digital health/mental health), Export Market Development Grants (EMDG).
+  - Federal: 
+    - **Industry Growth Program (IGP)** ([business.gov.au](https://business.gov.au/grants-and-programs/industry-growth-program)): Active pathway. Start with Advisory Services (apply anytime); grants available only after receiving an advisory report. Two grant streams: Early‑Stage Commercialisation ($50k–$250k) and Commercialisation & Growth ($100k–$5m). Focus on NRF priority areas and manufacturing capability; competitive, merit‑based.
+    - CRC‑P (Cooperative Research Centres Projects)
+    - ARC Linkage
+    - MRFF/NHMRC (digital health/mental health)
+    - Export Market Development Grants (EMDG).
   - CSIRO & National Science: CSIRO Kick‑Start, ON Prime/Accelerate, Data61 collaborations.
   - State: NSW MVP Ventures, QLD Ignite Ideas, Vic Breakthrough Victoria, SA Research/Commercialisation grants.
   - Philanthropy: Paul Ramsay Foundation, Minderoo, Lord Mayor’s Charitable Foundation; privacy/tech foundations where applicable.
@@ -121,6 +126,23 @@ Engagement model and timing:
 - Draft the reusable narrative (sections above) and a 2-page concept note.
 - Identify pilot partners and request letters of support.
 - Prepare ethics pre-review checklist for pilots.
+
+## Grant Calendar (rolling)
+ Industry Growth Program — Advisory Services
+   Status: Open (apply anytime). Prerequisite for IGP grants.
+   Action: Submit Advisory application; target advisory report within 4–6 weeks. Link: https://business.gov.au/grants-and-programs/industry-growth-program [Owner: assign]
+ ASCA — Undersea Navigation Challenge (AI/autonomy relevant)
+   Status: Open; closes Mon 3 Oct 2025, 12:00 pm AEST. Link: https://www.asca.gov.au/opportunities/undersea-navigation-challenge [Owner: assign]
+ CSIRO Kick‑Start (Data61 collaboration)
+   Status: Typically open year‑round. Link: https://www.csiro.au/en/contact (program page link pending update) [Owner: assign]
+ CSIRO ON Prime / ON Accelerate
+   Status: Cohort‑based (dates TBC). Link: https://www.csiro.au/en/contact (program page link pending update) [Owner: assign]
+ MRFF/NHMRC (digital health/AI‑enabled topics)
+   Status: Topic‑based; intermittent rounds. Links: MRFF https://www.health.gov.au/initiatives-and-programs/medical-research-future-fund | MRFF Grants Calendar https://www.health.gov.au/our-work/mrff/grant-opportunities-calendar | GrantConnect https://www.grants.gov.au/ [Owner: assign]
+- MRFF/NHMRC (digital health/AI‑enabled topics)
+  - Status: Topic‑based; intermittent rounds.
+  - Action: Set alerts on GrantConnect/business.gov.au; pre‑draft ethics and clinical partner letters.
+  - Owner: [assign]
 
 ---
 This document is a living plan; updates should be cross-referenced in `Whitepaper.md` and `Extended/` notes.
