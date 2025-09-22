@@ -22,8 +22,8 @@ The extended document are documents that expand on the ideas of the white paper.
 This refers to extended insights and expansions on the white paper discussion.[Read the extended document](Extended/communication_interfacing.md)
 
 
-## License
-This research is licensed under the Creative Commons Attribution 4.0 International License. See the [LICENSE.md](LICENSE.md) file for details.
+## Licence
+This research is provided under an All Rights Reserved licence. See the [LICENCE.md](LICENCE.md) file for details.
 
 ## Authors and Research tooling
 - Brian Cusack
