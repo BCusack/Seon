@@ -38,15 +38,17 @@ This document consolidates the go-to-market plan and grant funding strategy for 
   - Deliverables: security review, device-mesh reliability tests, data minimisation compliance pack.
   - Gating criteria: retention ≥40% at 30 days, NPS ≥25, privacy audit pass.
 
-## Grant Strategy
-- Targets (examples; to be tailored by region):
-  - National innovation agencies (e.g., UKRI Innovate UK Smart Grants; EU EIC Pathfinder/Transition; US NSF SBIR/STTR).
-  - Foundations focused on digital health, wellbeing, and privacy (e.g., Wellcome Trust; Mozilla; Sloan; Omidyar; OpenAI Community Fund-equivalents where applicable).
-  - Industry-aligned programmes (cloud credits, hardware incubators, responsible AI funds).
+## Grant Strategy (Australia‑focused)
+- Targets (Australia):
+  - Federal: Accelerating Commercialisation/Industry Growth Program (IGP), CRC‑P (Cooperative Research Centres Projects), ARC Linkage, MRFF/NHMRC (digital health/mental health), Export Market Development Grants (EMDG).
+  - CSIRO & National Science: CSIRO Kick‑Start, ON Prime/Accelerate, Data61 collaborations.
+  - State: NSW MVP Ventures, QLD Ignite Ideas, Vic Breakthrough Victoria, SA Research/Commercialisation grants.
+  - Philanthropy: Paul Ramsay Foundation, Minderoo, Lord Mayor’s Charitable Foundation; privacy/tech foundations where applicable.
+  - Industry: cloud credits (AWS/Azure/GCP), hardware prototyping programs, responsible AI funds.
 - Approach:
   - Maintain a rolling grant calendar with deadlines, TRL fit, match funding needs, and eligibility.
   - Prepare a reusable application core: problem, innovation, impact, team, work packages, ethics, risk.
-  - Build a partner network for letters of support: universities (HCI/privacy), clinics/wellbeing orgs, device makers.
+  - Build a partner network for letters of support: AU universities (HCI/privacy), CSIRO/Data61, clinics/wellbeing orgs, device makers.
   - Evidence: cite `Whitepaper.md` sections (memory, ethics, comms), and `Project/Market Research.md`.
 
 ### Grant Narrative Outline (Reusable)
@@ -98,21 +100,21 @@ Total indicative: £730k–£1.27m (seek grants to cover 40–70%; remainder via
 
 ## Ethics, Legal, and IP
 - Ethics: participant consent, opt-out by default for sensitive capture, transparent summaries.
-- Legal/Compliance: DPIA, ISO 27001 readiness, clinical oversight for wellbeing features.
+- Legal/Compliance: DPIA, ISO 27001 readiness, clinical oversight for wellbeing features. Australia‑specific: align with the Australian Privacy Principles (APPs) and OAIC Notifiable Data Breaches (NDB) scheme; for human research, obtain HREC approval in line with the NHMRC National Statement.
 - IP/Licensing: protect brand and hardware designs; prefer open standards; document data rights.
 
 ## Partnerships & Letters of Support (Initial Targets)
-- Academic: HCI/privacy labs; affective computing groups.
-- Clinical/Wellbeing: mental health charities, digital therapeutics clinics.
-- Industry: ear-wearable OEMs, cloud providers, privacy tooling vendors.
+ Academic: AU HCI/privacy labs; affective computing groups.
+ Industry: ear-wearable OEMs, cloud providers, privacy tooling vendors; CSIRO/Data61 collaboration opportunities.
 
-## Team & Roles
-Core team (first 3–6 months):
-- ML/Inference Engineer (edge and cloud): low-latency ASR/TTS pipeline, on-device inference, LLM orchestration.
-- Full‑Stack Engineer: admin dashboard, data pipeline, telemetry with privacy by design.
-- HCI/Privacy Researcher: study design, DPIA, threat modelling, ethics compliance.
-- Embedded/Firmware Engineer (as needed): prototype ear‑wearable firmware and sensor integration.
-
+ Note: Figures currently shown in GBP for comparability; will be localised to AUD in the next revision.
+ Personnel: £420k–£620k (ML/infra, full‑stack, HCI/privacy research, embedded, compliance)
+ Cloud/Compute: £80k–£160k (LLM usage, privacy-preserving infra, monitoring)
+ Hardware & Prototyping: £60k–£120k (ear-clip prototypes, sensors, testing rigs)
+ Research & Pilots: £70k–£140k (participant incentives, ethics approvals, analysis)
+ Security & Compliance: £40k–£90k (threat modelling, pen test, DPIA/ISO prep)
+ Legal & IP: £25k–£60k (contracts, licenses, trademarks, counsel)
+ Ops & Contingency: £35k–£75k
 Advisory group (part‑time/retained):
 - Clinical/Wellbeing Advisor: risk boundaries, escalation protocols.
 - Ethics/AI Safety Advisor: review policies, red‑team oversight.
