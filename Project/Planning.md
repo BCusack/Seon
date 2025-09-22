@@ -18,7 +18,7 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 - Build and test an MVP across 2–3 usage domains (wellbeing support, micro-assistance, and context-awareness).
 - Secure non-dilutive grant funding to achieve technical milestones and ethical compliance readiness.
 - Establish partnerships for hardware prototyping, privacy research, and pilot deployments.
-- Assemble a small interdisciplinary core team (ML/infra, full‑stack, HCI/privacy research, embedded/firmware) and an external advisory group (clinical/wellbeing, ethics, hardware).
+- Assemble a small interdisciplinary core team (ML/infra, full‑stack, human–computer interaction (HCI)/privacy research, embedded/firmware) and an external advisory group (clinical/wellbeing, ethics, hardware).
 
 ## Phased Roadmap
 - Phase 0: Foundations (Month 0–3)
@@ -46,7 +46,7 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 - Approach:
   - Maintain a rolling grant calendar with deadlines, TRL fit, match funding needs, and eligibility.
   - Prepare a reusable application core: problem, innovation, impact, team, work packages, ethics, risk.
-  - Build a partner network for letters of support: universities (HCI/Privacy), clinics/wellbeing orgs, device makers.
+  - Build a partner network for letters of support: universities (HCI/privacy), clinics/wellbeing orgs, device makers.
   - Evidence: cite `Whitepaper.md` sections (memory, ethics, comms), and `Project/Market Research.md`.
 
 ### Grant Narrative Outline (Reusable)
