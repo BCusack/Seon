@@ -6,20 +6,28 @@ Owner: Seon Core Team
 ## Overview
 This document consolidates the go-to-market plan and grant funding strategy for Seon. It complements the project vision in `Whitepaper.md` and competitive insights in `Project/Market Research.md`.
 
+## Guiding Principles
+- Ambient, ear-first interactions; no consumer smartphone application. The smartphone is not the primary interface.
+- Admin dashboard exists solely for pilot operations, analysis, and controls.
+- Privacy by design: data minimisation, on-device processing where feasible, encrypted cloud only for heavy compute.
+- Low-latency voice loop and context awareness via device mesh, not phone-centric hubs.
+
 ## Objectives (12–18 months)
 - Validate problem–solution fit for an always-on, privacy-first AI companion.
 - Complete a structured technology discovery and feasibility assessment (build‑vs‑buy, latency, privacy, and reliability constraints).
 - Build and test an MVP across 2–3 usage domains (wellbeing support, micro-assistance, and context-awareness).
 - Secure non-dilutive grant funding to achieve technical milestones and ethical compliance readiness.
 - Establish partnerships for hardware prototyping, privacy research, and pilot deployments.
+- Assemble a small interdisciplinary core team (ML/infra, full‑stack, HCI/privacy research, embedded/firmware) and an external advisory group (clinical/wellbeing, ethics, hardware).
 
 ## Phased Roadmap
-- Phase 0: Foundations (Month 0–2)
+- Phase 0: Foundations (Month 0–3)
   - Technical: architecture choices, safety/ethics framework, risk register.
   - Technology discovery: survey candidate stacks (ASR/TTS, on-device inference, LLM orchestration), run feasibility spikes, and produce a decision matrix with trade-offs and costs.
   - Research: user needs discovery, refine personas, pilot protocols.
   - Ops: grant pipeline creation, governance setup, initial letters of support.
-  - Gating criteria: architecture option(s) shortlisted with rationale; feasibility spikes demonstrate target latency and privacy posture on representative hardware; build‑vs‑buy decisions recorded; privacy threat model v1.
+  - Team: prioritise hiring/contracting for critical roles and onboard advisors.
+  - Gating criteria: architecture option(s) shortlisted with rationale; feasibility spikes demonstrate target latency and privacy posture on representative hardware; build‑vs‑buy decisions recorded; privacy threat model v1; signed letters of support; at least two key advisors engaged; hiring plan approved and critical roles filled or contracted.
 - Phase 1: MVP v1 (Month 3–6)
   - Deliverables: ear-clip interaction prototype (mock hardware), admin dashboard app for analysis and controls, core LLM integration, ephemeral context buffer.
   - Gating criteria: live end-to-end demo, privacy threat model v1, 20 pilot users recruited.
@@ -52,7 +60,7 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 8. Budget & Sustainability: costs, co-funding, path to revenue.
 
 ## Indicative Budget (12–18 months)
-- Personnel: £420k–£620k (ML/infra, full-stack, product, research, compliance)
+- Personnel: £420k–£620k (ML/infra, full‑stack, HCI/privacy research, embedded, compliance)
 - Cloud/Compute: £80k–£160k (LLM usage, privacy-preserving infra, monitoring)
 - Hardware & Prototyping: £60k–£120k (ear-clip prototypes, sensors, testing rigs)
 - Research & Pilots: £70k–£140k (participant incentives, ethics approvals, analysis)
@@ -97,6 +105,23 @@ Total indicative: £730k–£1.27m (seek grants to cover 40–70%; remainder via
 - Academic: HCI/privacy labs; affective computing groups.
 - Clinical/Wellbeing: mental health charities, digital therapeutics clinics.
 - Industry: ear-wearable OEMs, cloud providers, privacy tooling vendors.
+
+## Team & Roles
+Core team (first 3–6 months):
+- ML/Inference Engineer (edge and cloud): low-latency ASR/TTS pipeline, on-device inference, LLM orchestration.
+- Full‑Stack Engineer: admin dashboard, data pipeline, telemetry with privacy by design.
+- HCI/Privacy Researcher: study design, DPIA, threat modelling, ethics compliance.
+- Embedded/Firmware Engineer (as needed): prototype ear‑wearable firmware and sensor integration.
+
+Advisory group (part‑time/retained):
+- Clinical/Wellbeing Advisor: risk boundaries, escalation protocols.
+- Ethics/AI Safety Advisor: review policies, red‑team oversight.
+- Hardware/EE Advisor: ear‑wearable feasibility and vendor evaluation.
+
+Engagement model and timing:
+- Month 0–1: contract advisors; engage 1–2 core engineers; HCI/privacy researcher part‑time.
+- Month 2–3: expand to full core team; kick off pilots preparation.
+- Use contractors/partners where faster, convert to FTE as funding permits.
 
 ## Next Actions
 - Build grant calendar and assign owners per opportunity.
