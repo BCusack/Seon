@@ -18,7 +18,7 @@ This document consolidates the go-to-market plan and grant funding strategy for 
   - Research: user needs discovery, refine personas, pilot protocols.
   - Ops: grant pipeline creation, governance setup, initial letters of support.
 - Phase 1: MVP v1 (Month 3–6)
-  - Deliverables: ear-clip interaction prototype (mock hardware), mobile companion app, core LLM integration, ephemeral context buffer.
+  - Deliverables: ear-clip interaction prototype (mock hardware), admin dashboard app for analysis and controls, core LLM integration, ephemeral context buffer.
   - Gating criteria: live end-to-end demo, privacy threat model v1, 20 pilot users recruited.
 - Phase 2: Pilot & Iteration (Month 7–10)
   - Deliverables: memory graph v1, adaptive prompt/policy tuning, sentiment and intent inference.
