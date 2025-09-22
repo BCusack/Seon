@@ -63,14 +63,14 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 
 ## Indicative Budget (12–18 months)
 Note: Converted from GBP at a planning rate of 1 GBP = 2.0 AUD; update with current rates during detailed budgeting.
-- Personnel: AUD 840k–1.24m (ML/infra, full‑stack, HCI/privacy research, embedded, compliance)
-- Cloud/Compute: AUD 160k–320k (LLM usage, privacy‑preserving infra, monitoring)
-- Hardware & Prototyping: AUD 120k–240k (ear‑clip prototypes, sensors, testing rigs)
-- Research & Pilots: AUD 140k–280k (participant incentives, ethics approvals, analysis)
-- Security & Compliance: AUD 80k–180k (threat modelling, pen test, DPIA/ISO prep)
-- Legal & IP: AUD 50k–120k (contracts, licences, trademarks, counsel)
-- Ops & Contingency: AUD 70k–150k
-Total indicative: AUD 1.46m–2.54m (seek grants to cover 40–70%; remainder via in‑kind/credits/match)
+- Personnel: $840k–$1.24m (ML/infra, full‑stack, HCI/privacy research, embedded, compliance)
+- Cloud/Compute: $160k–$320k (LLM usage, privacy‑preserving infra, monitoring)
+- Hardware & Prototyping: $120k–$240k (ear‑clip prototypes, sensors, testing rigs)
+- Research & Pilots: $140k–$280k (participant incentives, ethics approvals, analysis)
+- Security & Compliance: $80k–$180k (threat modelling, pen test, DPIA/ISO prep)
+- Legal & IP: $50k–$120k (contracts, licences, trademarks, counsel)
+- Ops & Contingency: $70k–$150k
+Total indicative: $1.46m–$2.54m (seek grants to cover 40–70%; remainder via in‑kind/credits/match)
 
 ## Work Packages (WPs) & KPIs
 - WP0: Technology Discovery
@@ -125,3 +125,5 @@ Engagement model and timing:
 
 ---
 This document is a living plan; updates should be cross-referenced in `Whitepaper.md` and `Extended/` notes.
+
+Note: All monetary amounts are in AUD.
