@@ -128,20 +128,35 @@ Engagement model and timing:
 - Prepare ethics pre-review checklist for pilots.
 
 ## Grant Calendar (rolling)
- Industry Growth Program — Advisory Services
-   Status: Open (apply anytime). Prerequisite for IGP grants.
-   Action: Submit Advisory application; target advisory report within 4–6 weeks. Link: https://business.gov.au/grants-and-programs/industry-growth-program [Owner: assign]
- ASCA — Undersea Navigation Challenge (AI/autonomy relevant)
-   Status: Open; closes Mon 3 Oct 2025, 12:00 pm AEST. Link: https://www.asca.gov.au/opportunities/undersea-navigation-challenge [Owner: assign]
- CSIRO Kick‑Start (Data61 collaboration)
-   Status: Typically open year‑round. Link: https://www.csiro.au/en/contact (program page link pending update) [Owner: assign]
- CSIRO ON Prime / ON Accelerate
-   Status: Cohort‑based (dates TBC). Link: https://www.csiro.au/en/contact (program page link pending update) [Owner: assign]
- MRFF/NHMRC (digital health/AI‑enabled topics)
-   Status: Topic‑based; intermittent rounds. Links: MRFF https://www.health.gov.au/initiatives-and-programs/medical-research-future-fund | MRFF Grants Calendar https://www.health.gov.au/our-work/mrff/grant-opportunities-calendar | GrantConnect https://www.grants.gov.au/ [Owner: assign]
+
+- Industry Growth Program — Advisory Services
+  - Status: Open (apply anytime). Prerequisite for IGP grants.
+  - Action: Submit Advisory application; target advisory report within 4–6 weeks.
+  - Link: https://business.gov.au/grants-and-programs/industry-growth-program
+  - Owner: [assign]
+
+- ASCA — Undersea Navigation Challenge (AI/autonomy relevant)
+  - Status: Open; closes Mon 3 Oct 2025, 12:00 pm AEST.
+  - Action: Evaluate fit; if in-scope, draft concept and team; register.
+  - Link: https://www.asca.gov.au/opportunities/undersea-navigation-challenge
+  - Owner: [assign]
+
+- CSIRO Kick‑Start (Data61 collaboration)
+  - Status: Typically open year‑round.
+  - Action: Identify collaborator; draft 1‑pager and budget (matched funding note).
+  - Link: https://www.csiro.au/en/contact (program page link pending update)
+  - Owner: [assign]
+
+- CSIRO ON Prime / ON Accelerate
+  - Status: Cohort‑based (dates TBC).
+  - Action: Monitor intake; prepare 1‑pager and team bios.
+  - Link: https://www.csiro.au/en/contact (program page link pending update)
+  - Owner: [assign]
+
 - MRFF/NHMRC (digital health/AI‑enabled topics)
   - Status: Topic‑based; intermittent rounds.
   - Action: Set alerts on GrantConnect/business.gov.au; pre‑draft ethics and clinical partner letters.
+  - Links: MRFF https://www.health.gov.au/initiatives-and-programs/medical-research-future-fund | MRFF Grants Calendar https://www.health.gov.au/our-work/mrff/grant-opportunities-calendar | GrantConnect https://www.grants.gov.au/
   - Owner: [assign]
 
 ---
