@@ -40,7 +40,12 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 
 ## Grant Strategy (Australia‑focused)
 - Targets (Australia):
-  - Federal: Accelerating Commercialisation/Industry Growth Program (IGP), CRC‑P (Cooperative Research Centres Projects), ARC Linkage, MRFF/NHMRC (digital health/mental health), Export Market Development Grants (EMDG).
+  - Federal: 
+    - **Industry Growth Program (IGP)** ([business.gov.au](https://business.gov.au/grants-and-programs/industry-growth-program)): Active pathway. Start with Advisory Services (apply anytime); grants available only after receiving an advisory report. Two grant streams: Early‑Stage Commercialisation ($50k–$250k) and Commercialisation & Growth ($100k–$5m). Focus on NRF priority areas and manufacturing capability; competitive, merit‑based.
+    - CRC‑P (Cooperative Research Centres Projects)
+    - ARC Linkage
+    - MRFF/NHMRC (digital health/mental health)
+    - Export Market Development Grants (EMDG).
   - CSIRO & National Science: CSIRO Kick‑Start, ON Prime/Accelerate, Data61 collaborations.
   - State: NSW MVP Ventures, QLD Ignite Ideas, Vic Breakthrough Victoria, SA Research/Commercialisation grants.
   - Philanthropy: Paul Ramsay Foundation, Minderoo, Lord Mayor’s Charitable Foundation; privacy/tech foundations where applicable.
