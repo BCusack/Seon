@@ -127,6 +127,32 @@ Engagement model and timing:
 - Identify pilot partners and request letters of support.
 - Prepare ethics pre-review checklist for pilots.
 
+## Grant Calendar (rolling)
+- Industry Growth Program — Advisory Services
+  - Status: Open (apply anytime). Prerequisite for IGP grants.
+  - Action: Submit Advisory application; target advisory report within 4–6 weeks.
+  - Owner: [assign]
+- Industry Growth Program — Grants (Early-Stage: $50k–$250k; Commercialisation & Growth: $100k–$5m)
+  - Status: Open to those with IGP Advisory report; merit-based, rolling intakes.
+  - Action: Prepare grant core pack (problem, innovation, TRL, budget, ethics); align to NRF priority areas.
+  - Owner: [assign]
+- ASCA — Undersea Navigation Challenge (AI/autonomy relevant)
+  - Status: Open; closes Mon 3 Oct 2025, 12:00 pm AEST.
+  - Action: Evaluate fit; if in-scope, draft concept and team; register.
+  - Owner: [assign]
+- CSIRO Kick‑Start (Data61 collaboration)
+  - Status: Typically open year‑round.
+  - Action: Identify collaborator; draft 1‑pager and budget (matched funding note).
+  - Owner: [assign]
+- CSIRO ON Prime / ON Accelerate
+  - Status: Cohort‑based (dates TBC).
+  - Action: Monitor intake; prepare 1‑pager and team bios.
+  - Owner: [assign]
+- MRFF/NHMRC (digital health/AI‑enabled topics)
+  - Status: Topic‑based; intermittent rounds.
+  - Action: Set alerts on GrantConnect/business.gov.au; pre‑draft ethics and clinical partner letters.
+  - Owner: [assign]
+
 ---
 This document is a living plan; updates should be cross-referenced in `Whitepaper.md` and `Extended/` notes.
 
