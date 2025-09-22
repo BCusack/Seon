@@ -62,7 +62,6 @@ This document consolidates the go-to-market plan and grant funding strategy for 
 8. Budget & Sustainability: costs, co-funding, path to revenue.
 
 ## Indicative Budget (12–18 months)
-Note: Converted from GBP at a planning rate of 1 GBP = 2.0 AUD; update with current rates during detailed budgeting.
 - Personnel: $840k–$1.24m (ML/infra, full‑stack, HCI/privacy research, embedded, compliance)
 - Cloud/Compute: $160k–$320k (LLM usage, privacy‑preserving infra, monitoring)
 - Hardware & Prototyping: $120k–$240k (ear‑clip prototypes, sensors, testing rigs)
