@@ -16,4 +16,4 @@ You may not, without prior written permission:
 
 Attribution: If written permission is granted for specific uses, attribution to "Brian Cusack" and a link to this repository are required.
 
-For permissions, please contact: [Insert contact or GitHub profile link]
+For permissions, please contact: [BCusack](https://github.com/BCusack)
