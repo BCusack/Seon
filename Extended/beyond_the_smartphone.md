@@ -1,9 +1,4 @@
-# Beyond The Smart Phone: Boredom, Thought Trains, and a Kinder Companion
-
-Version: 0.2 (Draft)
-Owner: The Seon Core Team
-
-## Talk
+# Beyond The Smart Phone
 
 What if the problem isn’t our attention span?
 What if it’s our relationship with boredom—and the trains of thought that follow?
@@ -34,7 +29,7 @@ If every gap in our day becomes a portal to somewhere else, where do we actually
 
 Now imagine something different.
 Not a screen. Not a feed.
-An ear‑first companion that meets you in the moment, then gets out of the way.
+An ethereal companion that meets you in the moment, then gets out of the way.
 
 A companion that treats boredom as a signal, not an enemy.
 That asks, gently: “Is this a moment to breathe, to act, or to be?”
@@ -57,14 +52,14 @@ Some examples:
 
 - The Boredom Pivot: “You’ve checked your phone three times in two minutes. Fancy a 30‑second reset or a tiny win?”
 - Micro‑Momentum: “One small step towards your draft? I’ll time two focused minutes.”
-- Compassionate Interrupt: “I’m hearing self‑criticism. Would you like a kinder reframe or a grounding exercise?”
+- Compassionate Interrupt: “I’m hearing self‑criticism. Would you like a kinder reframe or we could just walk?”
 - World in a Teacup: “Want headlines only—90 seconds, no scroll? I’ll save deep dives for later.”
 
 Under the hood, the Seon keeps your world in a light, privacy‑first memory—people, commitments, signals—so it can be relevant without being clingy.
 It links what matters (Jill ↔ Bob ↔ hospital appointment) and lets the rest fade.
 No infinite feeds. No slot‑machine rewards. No streaks.
 
-Boredom doesn’t have to be a void we fear.
+Boredom doesn’t have to be a void bringer.
 It can be a doorway—into presence, into action, into rest.
 When the moment calls for motivation, the Seon offers momentum.
 When the mind spirals, it offers a gentle hand on the brake.
@@ -77,16 +72,8 @@ but in how gracefully it lets us go?
 That’s the future we’re building towards: fewer tunnels, more doorways.
 Less rumination, more life.
 
-The Seon—ear‑first, bounded, consent‑forward—asks for your attention only when it can give you something better back.
+Purposed not to capture your time, but to help you reclaim it. In a world designed to keep us scrolling, the Seon stands apart: a companion that honors your presence, supports your well-being, and lets you step away with ease. In choosing Seon, you choose technology that respects your boundaries and helps you live more fully—beyond the screen, and back into your life.
 
-Thank you.
-
----
-
-Notes for expansion (outside the talk):
-- Safeguards: time caps, opt‑in wellbeing prompts, transparent logs, local‑first processing.
-- Interaction policy: no infinite feeds, no variable‑ratio rewards, salience thresholds for notifications.
-- Research links to add: boredom and creativity; rumination and mental health; humane design and persuasive tech ethics.
 
 ## References
 - Attention economy overview and Simon’s observation: https://en.wikipedia.org/wiki/Attention_economy
