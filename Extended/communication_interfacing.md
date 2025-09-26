@@ -94,35 +94,35 @@ This ethical approach to AI development echoes the concerns raised by Tim Berner
 
 The future of AI communication and interface, as exemplified by the concept of the Seon companions, points towards a more seamless, intuitive, and personalized interaction between humans and AI. By moving beyond the limitations of current UI-based and computer-locked AI companions, Seon-like entities have the potential to become truly ubiquitous assistants, enhancing human capabilities and experiences in unprecedented ways.
 
-References:
+References (Chicago Author–Date):
 
-Brown, T. B., et al. (2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165.
+Baars, Bernard J. 1988. A Cognitive Theory of Consciousness. Cambridge: Cambridge University Press.
 
-Berners-Lee, T. (2019). Solid project website.
+Battaglia, Peter W., et al. 2018. “Relational Inductive Biases, Deep Learning, and Graph Networks.” arXiv preprint arXiv:1806.01261.
 
-Chomsky, N., & Halle, M. (1968). The sound pattern of English. Harper & Row.
+Berners-Lee, Tim. 2019. “Solid Project.” Accessed 26 September 2025. https://solidproject.org/
 
-Dey, A. K. (2001). Understanding and using context. Personal and ubiquitous computing, 5(1), 4-7.
+Brown, Tom B., et al. 2020. “Language Models Are Few‑Shot Learners.” arXiv preprint arXiv:2005.14165.
 
-Hoy, M. B. (2018). Alexa, Siri, Cortana, and more: An introduction to voice assistants. Medical reference services quarterly, 37(1), 81-88.
+Chomsky, Noam, and Morris Halle. 1968. The Sound Pattern of English. New York: Harper & Row.
 
-Luxton, D. D. (2014). Artificial intelligence in psychological practice: Current and future applications and implications. Professional Psychology: Research and Practice, 45(5), 332-339.
+Dey, Anind K. 2001. “Understanding and Using Context.” Personal and Ubiquitous Computing 5 (1): 4–7.
 
-Sanderson, B. (2005). Elantris. Tor Books.
+Hoy, Matthew B. 2018. “Alexa, Siri, Cortana, and More: An Introduction to Voice Assistants.” Medical Reference Services Quarterly 37 (1): 81–88.
 
-Skjuve, M., et al. (2021). My AI friend: How users of an AI companion application describe their relationship with the application. Computers in Human Behavior Reports, 4, 100130.
+Luxton, David D. 2014. “Artificial Intelligence in Psychological Practice: Current and Future Applications and Implications.” Professional Psychology: Research and Practice 45 (5): 332–39.
 
-Vaswani, A., et al. (2017). Attention is all you need. Advances in neural information processing systems, 30.
+Picard, Rosalind W. 1997. Affective Computing. Cambridge, MA: MIT Press.
 
-Weckert, J., & Adeney, E. (2022). Ethical issues in the use of AI in education. Springer.
+Sanderson, Brandon. 2005. Elantris. New York: Tor Books.
 
-Weiser, M. (1991). The computer for the 21st century. Scientific American, 265(3), 94-105.
+Skjuve, Marita, et al. 2021. “My AI Friend: How Users of an AI Companion Application Describe Their Relationship with the Application.” Computers in Human Behavior Reports 4: 100130.
 
-Baars, B. J. (1988). A Cognitive Theory of Consciousness. Cambridge University Press.
+Vaswani, Ashish, et al. 2017. “Attention Is All You Need.” In Advances in Neural Information Processing Systems 30.
 
-Battaglia, P. W., et al. (2018). Relational inductive biases, deep learning, and graph networks. arXiv:1806.01261.
+Weckert, John, and Elizabeth Adeney. 2022. Ethical Issues in the Use of AI in Education. Springer.
 
-Picard, R. W. (1997). Affective Computing. MIT Press.
+Weiser, Mark. 1991. “The Computer for the 21st Century.” Scientific American 265 (3): 94–105.
 
 Citations:
 [1] https://www.winssolutions.org/ai-companion-for-depression-recovery/
