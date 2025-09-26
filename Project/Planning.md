@@ -1,10 +1,10 @@
-# Seon Project Planning & Grant Strategy
+# The Seon Project Planning & Grant Strategy
 
 Version: 0.1 (Draft)
-Owner: Seon Core Team
+Owner: The Seon Core Team
 
 ## Overview
-This document consolidates the go-to-market plan and grant funding strategy for Seon. It complements the project vision in `Whitepaper.md` and competitive insights in `Project/Market Research.md`.
+This document consolidates the go-to-market plan and grant funding strategy for the Seon. It complements the project vision in `Whitepaper.md` and competitive insights in `Project/Market Research.md`.
 
 ## Guiding Principles
 - Ambient, ear-first interactions; no consumer smartphone application. The smartphone is not the primary interface.

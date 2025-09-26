@@ -1,6 +1,6 @@
 # The Future of AI Communication and Interface
 
-The evolution of AI companions is rapidly advancing, with natural language interaction and seamless integration into daily life becoming paramount. This document explores the current state of AI companions and their potential future developments, focusing on the concept of Seon companions as ethereal, ever-present entities.
+The evolution of AI companions is rapidly advancing, with natural language interaction and seamless integration into daily life becoming paramount. This document explores the current state of AI companions and their potential future developments, focusing on the concept of the Seon companions as ethereal, ever-present entities.
 
 ## Current UI AI Companions
 
@@ -14,7 +14,7 @@ Many existing AI companions are tethered to specific hardware or software ecosys
 
 ## Seon Companions: Ethereal Communication
 
-The concept of Seon companions represents a paradigm shift in AI interaction, envisioning a more ubiquitous and integrated presence in an individuals life. This approach draws inspiration from the ethereal nature of Seons in Brandon Sanderson's "Elantris," where these entities exist as constant, incorporeal companions (Sanderson, 2005).
+The concept of the Seon companions represents a paradigm shift in AI interaction, envisioning a more ubiquitous and integrated presence in an individuals life. This approach draws inspiration from the ethereal nature of Seons in Brandon Sanderson's "Elantris," where these entities exist as constant, incorporeal companions (Sanderson, 2005).
 
 ### Natural Language Interaction
 
@@ -30,18 +30,18 @@ The Seon will leverage real-time Large Language Model (LLM) interactions to augm
 
 ### Contextual Awareness
 
-By integrating data from various sensors and connected devices, Seon companions can develop a sophisticated understanding of the user's environment and activities. This contextual awareness enables more proactive and relevant assistance, anticipating user needs based on situational cues (Dey, 2001).
+By integrating data from various sensors and connected devices, the Seon companions can develop a sophisticated understanding of the user's environment and activities. This contextual awareness enables more proactive and relevant assistance, anticipating user needs based on situational cues (Dey, 2001).
 
 ## Ethical Considerations
 
-As AI companions become more integrated into users' lives, ethical considerations become increasingly important. Issues such as privacy, data security, and the potential for emotional dependency must be carefully addressed (Luxton, 2014). The development of Seon companions must prioritize user autonomy and well-being, ensuring that these AI entities enhance rather than replace human relationships.
+As AI companions become more integrated into users' lives, ethical considerations become increasingly important. Issues such as privacy, data security, and the potential for emotional dependency must be carefully addressed (Luxton, 2014). The development of the Seon companions must prioritize user autonomy and well-being, ensuring that these AI entities enhance rather than replace human relationships.
 
 This ethical approach to AI development echoes the concerns raised by Tim Berners-Lee regarding the World Wide Web. Berners-Lee has advocated for a decentralized web that prioritizes user control over personal data to avoid corperate ownership and manipulation, aiming to address privacy issues and corporate dominance (Berners-Lee, 2019). User autonomy and data sovereignty in the face of rapidly advancing technologies, highlighting the need for ethical frameworks that protect individual rights while fostering technological innovation (Weckert & Adeney, 2022).
 
 
 ## Conclusion
 
-The future of AI communication and interface, as exemplified by the concept of Seon companions, points towards a more seamless, intuitive, and personalized interaction between humans and AI. By moving beyond the limitations of current UI-based and computer-locked AI companions, Seon-like entities have the potential to become truly ubiquitous assistants, enhancing human capabilities and experiences in unprecedented ways.
+The future of AI communication and interface, as exemplified by the concept of the Seon companions, points towards a more seamless, intuitive, and personalized interaction between humans and AI. By moving beyond the limitations of current UI-based and computer-locked AI companions, Seon-like entities have the potential to become truly ubiquitous assistants, enhancing human capabilities and experiences in unprecedented ways.
 
 References:
 
