@@ -43,11 +43,11 @@ Designed to identify potential issues related to an individual's wellbeing and p
 
 ### **Always On & Contextual Awareness**
 
-Empowered by continuous, real-time awareness, designed to be always on—listening and drawing context from the user’s environment and interactions. This persistent attentiveness enables Seon to provide timely, relevant support and anticipate user needs.
+Empowered by continuous, real-time awareness, designed to be always on—listening and drawing context from the user’s environment and interactions. This persistent attentiveness enables the Seon to provide timely, relevant support and anticipate user needs.
 
-The approach to selective context retention in Seon is grounded in both cognitive science and artificial intelligence research. The Global Workspace Theory describes how only salient information is promoted to conscious awareness and long-term memory in humans (Baars 1988). In AI, models of selective attention and event segmentation—such as those by Itti and Koch (2001) and Zacks and Swallow (2007)—demonstrate how systems can filter continuous input, retaining only contextually significant events. Modern neural architectures, including Neural Turing Machines (Graves, Wayne, and Danihelka 2014), show how artificial agents can learn to selectively read, write, and forget information, supporting both privacy and efficiency. These approaches inspire Seon's ephemeral context buffer and salience-based memory transfer, ensuring that only what truly matters to the user is retained.
+The approach to selective context retention in the Seon is grounded in both cognitive science and artificial intelligence research. The Global Workspace Theory describes how only salient information is promoted to conscious awareness and long-term memory in humans (Baars 1988). In AI, models of selective attention and event segmentation—such as those by Itti and Koch (2001) and Zacks and Swallow (2007)—demonstrate how systems can filter continuous input, retaining only contextually significant events. Modern neural architectures, including Neural Turing Machines (Graves, Wayne, and Danihelka 2014), show how artificial agents can learn to selectively read, write, and forget information, supporting both privacy and efficiency. These approaches inspire the Seon's ephemeral context buffer and salience-based memory transfer, ensuring that only what truly matters to the user is retained.
 
-To safeguard privacy and security, Seon avoids keeping permanent logs of all audio or interactions. Instead, it employs a temporary, local context buffer—an ephemeral memory processed in real time and discarded unless specific information is identified as important for long-term support.
+To safeguard privacy and security, the Seon avoids keeping permanent logs of all audio or interactions. Instead, it employs a temporary, local context buffer—an ephemeral memory processed in real time and discarded unless specific information is identified as important for long-term support.
 
 For example, if the user’s friend Jill frequently visits and talks about her husband Bob’s illness, the Seon may recognize the importance of these relationships. Rather than storing all conversations, the Seon will promote references to Jill and Bob into a relationship memory and friend context memory, allowing it to provide more meaningful support in the future. Only salient, contextually significant information is selectively transferred from short-term to long-term memory, based on ongoing interaction and relevance to the user’s life.
 
@@ -71,13 +71,13 @@ This dual-layered approach ensures that the Seon responds exclusively to its des
 
 ### **Long-Term and Short-Term Memory Management**
 
-Seon employs a dynamic, adaptive memory system that manages both short-term and long-term memory, inspired by but more flexible than the human brain. Unlike static architectures, Seon can create, dissolve, and reorganize memory categories on demand, supporting a highly personalized and evolving understanding of the user.
+The Seon employs a dynamic, adaptive memory system that manages both short-term and long-term memory, inspired by but more flexible than the human brain. Unlike static architectures, the Seon can create, dissolve, and reorganize memory categories on demand, supporting a highly personalized and evolving understanding of the user.
 
-Short-term memory in Seon is context-driven and ephemeral, used for immediate reasoning and interaction. Only information deemed salient or relevant is promoted to long-term memory, ensuring privacy and efficiency. Long-term memory is persistent and structured, allowing Seon to recall past conversations, recognize behavioral patterns, and provide increasingly insightful support over time (Hinton, Rumelhart, and Williams 1986).
+Short-term memory in the Seon is context-driven and ephemeral, used for immediate reasoning and interaction. Only information deemed salient or relevant is promoted to long-term memory, ensuring privacy and efficiency. Long-term memory is persistent and structured, allowing the Seon to recall past conversations, recognize behavioral patterns, and provide increasingly insightful support over time (Hinton, Rumelhart, and Williams 1986).
 
 Seon’s memory architecture supports the creation of knowledge-graph-like connections between memory nodes. This enables the system to form rich, relational links between people, events, preferences, and experiences—mirroring the associative nature of human memory, but with greater dynamism and scalability. Such relational memory structures are informed by recent advances in graph neural networks and relational inductive biases (Battaglia et al. 2018).
 
-The allocation and management of memory is guided by principles of salience, relevance, and user privacy. The Seon can generalize from past experiences, adapt to new contexts, and even restructure its memory graph as the user’s life and needs evolve (Hassabis et al. 2017; Khandelwal et al. 2019). This approach enables the Seon to deliver contextually aware, proactive support while maintaining a strong commitment to data minimization and user control.
+The allocation and management of memory is guided by principles of salience, relevance, and user privacy. The Seon can generalize from past experiences, adapt to new contexts, and even restructure its memory graph as the user’s life and needs evolve (Hassabis et al. 2017; Khandelwal et al. 2019). This approach enables the Seon to deliver contextually aware, proactive support while maintaining a strong commitment to data minimisation and user control.
 
 ### **Securing Your Information and Communication in the Wild**
 
@@ -93,7 +93,7 @@ Privacy-critical data is processed locally on the ear clip and user devices, whi
 
 ### **Conclusion**
 
-The Seon project represents a significant advancement in the development of AI companions, moving beyond functional tools to create a truly personalized and supportive companion that is always-on, adaptive, and prioritizes user security and privacy.  Seon's focus on passive companionship, personalized support, and ethical AI development positions it as a potential leader in the future of human-AI interaction.
+The Seon project represents a significant advancement in the development of AI companions, moving beyond functional tools to create a truly personalized and supportive companion that is always-on, adaptive, and prioritizes user security and privacy.  The Seon's focus on passive companionship, personalized support, and ethical AI development positions it as a potential leader in the future of human-AI interaction.
 
 ### **Next Steps**
 

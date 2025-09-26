@@ -1,7 +1,7 @@
 ## Discovery
 
 ### Overview
-In investigating solutions for the problem of prototyping the memory manaagement system for Seon, we evaluated several technologies and approaches. The goal was to find a method that could effectively manage and query resources in a distributed system, while also being user-friendly and efficient.
+In investigating solutions for the problem of prototyping the memory manaagement system for the Seon, we evaluated several technologies and approaches. The goal was to find a method that could effectively manage and query resources in a distributed system, while also being user-friendly and efficient.
 
 ### Technologies and Approaches evaluated
 1. **Letta** - A tool designed to help users discover and manage resources in a distributed system. It provides a user-friendly interface for searching and filtering resources, as well as managing their lifecycle.
