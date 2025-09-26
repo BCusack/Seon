@@ -10,11 +10,11 @@ However, current AI companions are often limited by their reliance on specific d
 
 ## Computer-Locked AI Companions
 
-Many existing AI companions are tethered to specific hardware or software ecosystems. This "computer-locked" nature can restrict their accessibility and limit their potential for seamless integration into users' lives. For instance, AI writing assistants like Grammarly or language models like GPT-3 are typically accessed through specific applications or web interfaces, constraining their utility to particular contexts (Brown et al., 2020).
+Many existing AI companions are tethered to specific hardware or software ecosystems. This "computer-locked" nature can restrict their accessibility and limit their potential for seamless integration into users' lives. For instance, AI writing assistants like Grammarly or language models like GPT's are typically accessed through specific applications or web interfaces, constraining their utility to particular contexts (Brown et al., 2020).
 
 ## Seon Companions: Ethereal Communication
 
-The concept of the Seon companions represents a paradigm shift in AI interaction, envisioning a more ubiquitous and integrated presence in an individuals life. This approach draws inspiration from the ethereal nature of Seons in Brandon Sanderson's "Elantris," where these entities exist as constant, incorporeal companions (Sanderson, 2005).
+The concept of the Seon companions represents a paradigm shift in AI interaction, envisioning a ubiquitous, integrated presence in an individual’s life. This approach draws inspiration from the ethereal nature of Seons in Brandon Sanderson’s “Elantris,” where these entities are constant, incorporeal companions (Sanderson, 2005). In our context, “ethereal” means ambient, lightweight, and respectful: present when needed, silent when not; helpful without being heavy‑handed; and always operating under explicit user consent and clear boundaries.
 
 ### Natural Language Interaction
 
@@ -29,6 +29,57 @@ The intended primary communication interface is a discreet and unobtrusive earbu
 The Seon will leverage real-time Large Language Model (LLM) interactions to augment its knowledge base, ensuring access to up-to-date information and insights (Vaswani et al., 2017). This dynamic interaction with LLMs allows a Seon to respond to complex queries, engage in creative content interactions, and provide personalised recommendations based on the latest information available in a holistic manner.
 
 ### Contextual Awareness
+### Presence and Attention Etiquette
+
+Seon companions are designed to be “good citizens” of human attention. Presence is ambient but interruptions are rare and justified. Core behaviours include:
+
+- Silence‑by‑default: no speculative notifications; interactions are initiated by salience (time, place, social context, physiological signal) rather than novelty (Dey, 2001).
+- Turn‑taking and repair: the Seon respects conversational timing, avoids over‑talking, and can gracefully pause, resume, or back off.
+- Bounded sessions: exchanges are intentionally short by default (e.g., 15–60 seconds), with explicit opt‑in to go deeper. No infinite feeds; see also Extended/death_of_smartphone.md for rationale.
+
+This “attention etiquette” aims to reduce context‑switching costs and protect flow, aligning with ubiquitous computing’s ethos of technology receding into the background (Weiser, 1991).
+
+### Memory and Privacy‑by‑Design
+
+To be helpful without being invasive, the Seon applies a layered memory model:
+
+- Ephemeral context buffer: short‑lived working context decays quickly unless promoted.
+- Salience‑based promotion: only information that crosses explicit salience and consent thresholds is retained longer term.
+- Graph‑structured memory: people, places, events, and tasks are linked as a lightweight knowledge graph to enable relevant recall without bulk hoarding (cf. Global Workspace ideas on salience/attention; Baars, 1988; and graph reasoning for relational context; Battaglia et al., 2018).
+- Privacy controls: scoped retention, per‑topic redaction, local‑first processing where feasible, and transparent user logs.
+
+For a narrative example of graph memory in practice, see Whitepaper.md (long‑/short‑term memory) and the Jill–Bob illustration.
+
+### Motivation and Rumination Support (Non‑clinical)
+
+Boredom and negative thought trains often precede unhelpful scrolling. The Seon offers non‑clinical supports to nudge momentum and interrupt rumination, with the user in control:
+
+- Micro‑momentum: tiny, timely prompts to take the next small step (e.g., a two‑minute focus timer).
+- Gentle reframing: optional cognitive prompts to soften harsh self‑talk or narrow over‑generalisation (Nolen‑Hoeksema, 2000). Not therapy; not a medical device.
+- Grounding check‑ins: short breathing or sensory exercises on request, never pushed.
+
+These patterns are bounded, consent‑forward, and aimed at restoring agency, not maximising time‑in‑app. See Extended/death_of_smartphone.md for the broader argument against feed‑driven engagement.
+
+### Interaction Patterns and Contracts
+
+To avoid ambiguity and feature creep, Seon interactions follow simple “contracts” that define scope, duration, and exit conditions:
+
+- Micro‑briefing: compressed, 30–90‑second summaries (e.g., “What matters in the next hour?”). Ends with “anything else?” and defaults to end.
+- Check‑in: quick status reflection (“How are you feeling about X?”) with optional follow‑ups. Defaults to silence afterwards.
+- Query/answer: direct question → concise answer → optional source list. No follow‑on bait.
+- Save‑for‑later: capture interesting items to a later list; the Seon never opens a feed.
+
+Explicit contracts create predictable, low‑friction experiences and minimise attention tax.
+
+### Device Mesh and Surface Handoffs
+
+While the primary interface is ear‑first, Seon companions participate in a privacy‑respecting device mesh for seamless handoffs:
+
+- Earbud or ear‑clip for voice I/O with lightweight haptics for confirmation.
+- Glanceable surfaces (e.g., watch, e‑ink tile) for silent summaries and controls.
+- Local‑first processing where possible; encrypted synchronisation across personal devices.
+
+The goal is continuity without captivity: the Seon is available across contexts without trapping the user in any single screen or app.
 
 By integrating data from various sensors and connected devices, the Seon companions can develop a sophisticated understanding of the user's environment and activities. This contextual awareness enables more proactive and relevant assistance, anticipating user needs based on situational cues (Dey, 2001).
 
@@ -66,6 +117,12 @@ Vaswani, A., et al. (2017). Attention is all you need. Advances in neural inform
 Weckert, J., & Adeney, E. (2022). Ethical issues in the use of AI in education. Springer.
 
 Weiser, M. (1991). The computer for the 21st century. Scientific American, 265(3), 94-105.
+
+Baars, B. J. (1988). A Cognitive Theory of Consciousness. Cambridge University Press.
+
+Battaglia, P. W., et al. (2018). Relational inductive biases, deep learning, and graph networks. arXiv:1806.01261.
+
+Picard, R. W. (1997). Affective Computing. MIT Press.
 
 Citations:
 [1] https://www.winssolutions.org/ai-companion-for-depression-recovery/
