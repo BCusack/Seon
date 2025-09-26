@@ -1,4 +1,4 @@
-# Beyond Doomscrolling: Boredom, Thought Trains, and a Kinder Companion (TED‑style)
+# Beyond The Smart Phone: Boredom, Thought Trains, and a Kinder Companion
 
 Version: 0.2 (Draft)
 Owner: The Seon Core Team
@@ -23,6 +23,10 @@ Yes—rumination. Not just news, not just feeds. Thought loops.
 
 We don’t doomscroll only for novelty. We do it to outrun these loops.
 And like running on a treadmill, we end exactly where we began—only more tired.
+
+A brief note on the attention economy.
+In 1971, Herbert Simon warned that “a wealth of information creates a poverty of attention.”
+Half a century later, engagement is the metric, not meaning. Infinite scroll and autoplay harness variable‑reward loops; prompt‑and‑trigger design lowers friction until reaching for the feed is reflex. In that market, our idle seconds are inventory. Our boredom is billable.
 
 So let’s question the device we made into a compass.
 If a tool’s default is infinite, is it still a tool—or a tunnel?
@@ -83,3 +87,12 @@ Notes for expansion (outside the talk):
 - Safeguards: time caps, opt‑in wellbeing prompts, transparent logs, local‑first processing.
 - Interaction policy: no infinite feeds, no variable‑ratio rewards, salience thresholds for notifications.
 - Research links to add: boredom and creativity; rumination and mental health; humane design and persuasive tech ethics.
+
+## References
+- Attention economy overview and Simon’s observation: https://en.wikipedia.org/wiki/Attention_economy
+- Simon, H. A. (1971). “Designing Organizations for an Information‑Rich World.” In M. Greenberger (Ed.), Computers, Communications, and the Public Interest. (Introduces the ‘poverty of attention’ idea.)
+- Wu, T. (2017). The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Penguin Press. https://www.penguinrandomhouse.com/books/247094/the-attention-merchants-by-tim-wu/
+- Variable‑ratio reinforcement (slot‑machine‑like reward schedules): https://en.wikipedia.org/wiki/Schedules_of_reinforcement
+- Fogg Behavior Model (ability, motivation, prompt): https://behaviormodel.org/
+- Rumination and mood: Nolen‑Hoeksema, S. (2000). The role of rumination in depressive disorders and mixed anxiety/depressive symptoms. Journal of Abnormal Psychology, 109(3), 504–511. https://pubmed.ncbi.nlm.nih.gov/11016119/
+- Center for Humane Technology (design patterns and harms): https://www.humanetech.com/
