@@ -18,8 +18,10 @@ I chose GitHub as the platform for this research as it is a great place to colla
 The white paper is the main focus. This is where the definition of the Seon and points of focus live. [Read the white paper](Whitepaper.md)
 
 ## Extended
-The extended document are documents that expand on the ideas of the white paper. 
-This refers to extended insights and expansions on the white paper discussion.[Read the extended document](Extended/communication_interfacing.md)
+Extended documents expand on the ideas of the white paper and provide deeper dives into specific topics:
+
+- Communication and interfacing principles: Extended discussion on interaction modes and constraints — see Extended/communication_interfacing.md
+- Beyond doomscrolling: The death of the smartphone as the attention feed (draft) — see Extended/death_of_smartphone.md
 
 
 ## Licence
