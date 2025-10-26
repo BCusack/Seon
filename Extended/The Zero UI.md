@@ -46,7 +46,7 @@ Of course, a future of ambient, ever-present **AI companions** is not without it
 
 Building the future of Zero UI requires us to be as thoughtful about the ethical architecture as we are about the technical architecture. User trust will be the most important feature of all.
 
-![A prosthetic hand holding flowers.](https://images.pexels.com/photos/5386236/pexels-photo-5386236.jpeg)
+![Photo by Polina Tankilevitch on Pexels](https://images.pexels.com/photos/5386208/pexels-photo-5386208.jpeg)
 
 
 ## Conclusion: Beyond the Screen to a Better Digital Wellbeing
