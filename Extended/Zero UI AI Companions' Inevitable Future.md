@@ -205,7 +205,7 @@ The rise of AI Companions is paralleled by a global "loneliness epidemic." Zero 
 ### **5.4 Embodiment With Implants**
 
 Implants intensify Zero UI’s “ready-to-hand” character by literally integrating the interface with the body.[12](https://pmc.ncbi.nlm.nih.gov/articles/PMC2834739/) When functioning normally, cochlear and bone-anchored systems fade from attention; the user attends to conversation and environment, not the device.[14](https://building.nubank.com/overcoming-the-invisible-interface/) Moments of “breakdown” (device failure, dead battery, MRI restrictions) flip the experience to “present-at-hand,” foregrounding the technology and interrupting flow.[59](https://repository.tudelft.nl/file/File_7915f0bc-d68c-4b33-8cd9-3c0ef4a179b1?preview=1) Neural BCIs heighten embodiment: silent intent becomes input, and closed-loop stimulation can alter perception or motor imagery in real time, reshaping the felt boundary between self and tool.[99](https://www.nature.com/articles/s41587-021-01017-8) Practical embodiment hinges on lifecycle realities—clinical maintenance, firmware updates, and environmental constraints (e.g., MRI protocols)—that must be designed as part of the user’s lived routine rather than exceptional events.[92](https://www.fda.gov/medical-devices/implants-and-prosthetics/cochlear-implants) [93](https://www.fda.gov/medical-devices/cochlear-implants/cochlear-implants-and-mri-safety) [94](https://www.cochlear.com/us/en/home/hearing-solutions/bone-conduction-implants)
----
+
 
 ## **6\. Designing for the Invisible: UX Challenges in Zero UI**
 
