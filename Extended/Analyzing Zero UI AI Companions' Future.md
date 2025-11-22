@@ -3,7 +3,7 @@
 # **Zero UI AI Companions: A Strategic Analysis of the Ambient Future, Design Paradigms, and Societal Trade-Offs**
 
 <audio controls style="width: 100%; margin-bottom: 20px;">
-  <source src="https://storage.googleapis.com/text-docs-101/audio/document_1763807227.wav" type="audio/wav">
+  <source src="https://storage.cloud.google.com/text-docs-101/audio/document_1763807360.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
