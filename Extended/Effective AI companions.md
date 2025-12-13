@@ -1,8 +1,6 @@
 # Psychological Effects of The Seon-Style AI Companions: Likely Impacts, Media Concerns, and Design Rebuttals
 
-**Author:** The Seon Project (research draft)
-
-**Date:** December 13, 2025
+**Author:** The Seon Project
 
 ## Abstract
 The Seon is proposed as a Zero UI, voice-first AI companion that is “always on” and context-aware, designed for proactive and empathetic support, an exclusive user bond formed through a first-activation “genesis event,” and privacy-preserving memory management (The Seon Project, n.d.). Systems with these properties plausibly produce meaningful psychological benefits (e.g., reduced perceived loneliness, improved moment-to-moment self-regulation, and accessibility gains) while also raising credible risks (e.g., dependency, social displacement, manipulation in high-intimacy contexts, and heightened privacy anxiety). This paper synthesises established psychological mechanisms relevant to AI companionship—parasocial attachment, anthropomorphism, automation trust, and cognitive offloading—and maps them onto The Seon’s design claims (Zero UI, salience-based memory promotion, and privacy by design). It then anticipates high-salience media concerns and provides rebuttals framed as design constraints and governance guardrails rather than marketing assurances. Finally, it contrasts the current world of screen-centric, attention-economy interaction with a plausible future in which companions like The Seon are ambient and relational, arguing that outcomes depend primarily on incentives, transparency, and measurable autonomy-preserving constraints.
