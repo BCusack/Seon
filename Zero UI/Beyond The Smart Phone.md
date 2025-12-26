@@ -19,9 +19,23 @@ Yes—rumination. Not just news, not just feeds. Thought loops.
 We don’t doomscroll only for novelty. We do it to outrun these loops.
 And like running on a treadmill, we end exactly where we began—only more tired.
 
-A brief note on the attention economy.
-In 1971, Herbert Simon warned that “a wealth of information creates a poverty of attention.”
-Half a century later, engagement is the metric, not meaning. Infinite scroll and autoplay harness variable‑reward loops; prompt‑and‑trigger design lowers friction until reaching for the feed is reflex. In that market, our idle seconds are inventory. Our boredom is billable.
+### The Attention Economy: Harvesting Human Time
+
+In 1971, Herbert Simon warned that “a wealth of information creates a poverty of attention.” Half a century later, this poverty is engineered. The modern digital ecosystem operates on a model where the user is not the customer, but the product—or more accurately, the raw material. As Shoshana Zuboff articulates, our digital exhaust becomes "behavioral surplus," mined to predict and modify our future actions.
+
+This extraction relies on sophisticated psychological mechanisms designed to bypass our executive function:
+*   **Variable Reward Schedules:** Like a slot machine, the "pull-to-refresh" mechanic delivers unpredictable dopamine hits, keeping us hooked in anticipation of the next notification or viral post.
+*   **The Infinite Scroll:** By removing stopping cues, platforms turn consumption into a bottomless pit, ensuring there is no natural point of departure.
+*   **Dark Patterns:** Auto-play videos, deceptive notification badges, and "confirmshaming" interface designs are not accidents; they are deliberate architectural choices to maximize "time on device."
+
+In this economy, engagement is the only metric that matters. Our idle seconds are inventory. Our boredom is billable. The goal is not to empower the user, but to arrest them.
+
+**Seon: The Anti-Pattern**
+
+The Seon rejects this premise entirely. If the attention economy is built on the extraction of time, The Seon is built on the preservation of it.
+*   **Agency over Addiction:** The Seon has no feed to scroll, no ads to serve, and no incentive to keep you engaged longer than necessary.
+*   **Zero UI:** By removing the screen, we remove the canvas upon which these dark patterns are painted.
+*   **Respectful Presence:** The Seon does not clamor for attention. It waits. It is a tool that returns to the toolbox the moment the task is done, rather than a tunnel designed to keep you inside.
 
 So let’s question the device we made into a compass.
 If a tool’s default is infinite, is it still a tool—or a tunnel?
@@ -79,6 +93,7 @@ Purposed not to capture your time, but to help you reclaim it. In a world design
 - Attention economy overview and Simon’s observation: https://en.wikipedia.org/wiki/Attention_economy
 - Simon, H. A. (1971). “Designing Organizations for an Information‑Rich World.” In M. Greenberger (Ed.), Computers, Communications, and the Public Interest. (Introduces the ‘poverty of attention’ idea.)
 - Wu, T. (2017). The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Penguin Press. https://www.penguinrandomhouse.com/books/247094/the-attention-merchants-by-tim-wu/
+- Zuboff, S. (2019). The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. PublicAffairs. (Discusses 'behavioral surplus' and the extraction of human experience.)
 - Variable‑ratio reinforcement (slot‑machine‑like reward schedules): https://en.wikipedia.org/wiki/Schedules_of_reinforcement
 - Fogg Behavior Model (ability, motivation, prompt): https://behaviormodel.org/
 - Rumination and mood: Nolen‑Hoeksema, S. (2000). The role of rumination in depressive disorders and mixed anxiety/depressive symptoms. Journal of Abnormal Psychology, 109(3), 504–511. https://pubmed.ncbi.nlm.nih.gov/11016119/
