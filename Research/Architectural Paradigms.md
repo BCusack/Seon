@@ -34,7 +34,7 @@ SpeakerLM represents a paradigm shift as the first multimodal large language mod
 | :---- | :---- | :---- |
 | Audio Encoder | SenseVoice-large | Provides robust representations for multilingual ASR and audio event detection [7] |
 | Embedding Extractor | ERes2NetV2 | State-of-the-art model for precise speaker characteristic extraction [7] |
-| LLM Backbone | Qwen2 [5]-7B-Instruct | Processes audio, text, and speaker tokens concurrently for reasoning and generation [7] |
+| LLM Backbone | Qwen2.5-7B-Instruct | Processes audio, text, and speaker tokens concurrently for reasoning and generation [7] |
 | Projector | Two-layer Transformer | Aligns audio and speaker features with the LLM’s feature space [7] |
 
 SpeakerLM’s flexibility in speaker registration is a critical feature for Zero UI environments. It can operate in "No-Regist" mode for anonymous identification, "Match-Regist" for known users, or "Over-Regist" to handle redundant information where more speakers are registered than are actually present in the audio [7] This allows for a "proactive" rather than "reactive" interaction model, where the agent can adapt its response based on the identified user's history and preferences.
