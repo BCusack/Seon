@@ -197,70 +197,70 @@ The Seon Project represents the vanguard of a new era in which technology is tru
 
 ## References
 
-Lydia, H. (2025). *Author at Senstone*. Senstone. Retrieved December 29, 2025, from https://www.senstone.io/author/lh/
+- Lydia, H. (2025). *Author at Senstone*. Senstone. Retrieved December 29, 2025, from https://www.senstone.io/author/lh/
 
-ThatWare. (n.d.). *Chapter 3: The sensory web and zero-UI revolution*. Retrieved December 29, 2025, from https://thatware.co/sensory-web-and-zero-ui-revolution/
+- ThatWare. (n.d.). *Chapter 3: The sensory web and zero-UI revolution*. Retrieved December 29, 2025, from https://thatware.co/sensory-web-and-zero-ui-revolution/
 
-Maxitech. (2025). *Why smart investors back voice AI in 2025*. Retrieved December 29, 2025, from https://www.maxitech.com/insight/voice-ai
+- Maxitech. (2025). *Why smart investors back voice AI in 2025*. Retrieved December 29, 2025, from https://www.maxitech.com/insight/voice-ai
 
-*SageLM: A multi-aspect and explainable large language model for speech judgement*. (2025). Retrieved December 29, 2025, from https://arxiv.org/html/2508.20916v2
+- *SageLM: A multi-aspect and explainable large language model for speech judgement*. (2025). Retrieved December 29, 2025, from https://arxiv.org/html/2508.20916v2
 
-*Voila: Voice-language foundation models for real-time autonomous interaction and voice role-play*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2505.02707v1
+- *Voila: Voice-language foundation models for real-time autonomous interaction and voice role-play*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2505.02707v1
 
-*The ICME 2025 audio encoder capability challenge*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2501.15302v1
+- *The ICME 2025 audio encoder capability challenge*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2501.15302v1
 
-*SpeakerLM: End-to-end versatile speaker diarization and recognition*. (2025). arXiv. Retrieved December 29, 2025, from https://www.arxiv.org/pdf/2508.06372
+- *SpeakerLM: End-to-end versatile speaker diarization and recognition*. (2025). arXiv. Retrieved December 29, 2025, from https://www.arxiv.org/pdf/2508.06372
 
-*From who said what to who they are: Modular training-free identity-aware LLM refinement of speaker diarization*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2509.15082v1
+- *From who said what to who they are: Modular training-free identity-aware LLM refinement of speaker diarization*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2509.15082v1
 
-*AI generated synthetic identities in FinTech: Detecting deep fakes KYC fraud using behavioral biometrics*. (n.d.). Scribd. Retrieved December 29, 2025, from https://www.scribd.com/document/908726349/AI-Generated-Synthetic-Identities-in-Fin-Tech-Detecting-Deep-Fakes-KYC-Fraud-Using-Behavioral-Biometrics
+- *AI generated synthetic identities in FinTech: Detecting deep fakes KYC fraud using behavioral biometrics*. (n.d.). Scribd. Retrieved December 29, 2025, from https://www.scribd.com/document/908726349/AI-Generated-Synthetic-Identities-in-Fin-Tech-Detecting-Deep-Fakes-KYC-Fraud-Using-Behavioral-Biometrics
 
-*Pitch: AI-assisted tagging of deepfake audio calls using challenge-response*. (2024). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2402.18085v4
+- *Pitch: AI-assisted tagging of deepfake audio calls using challenge-response*. (2024). arXiv. Retrieved December 29, 2025, from https://arxiv.org/html/2402.18085v4
 
-*The age of sensorial zero trust: Why we can no longer trust our senses*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/pdf/2507.00907
+- *The age of sensorial zero trust: Why we can no longer trust our senses*. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/pdf/2507.00907
 
-*The voice clone crisis: How AI scammers can steal your voice in 15 seconds*. (n.d.). Scamwatch HQ. Retrieved December 29, 2025, from https://www.scamwatchhq.com/the-voice-clone-crisis-how-ai-scammers-can-steal-your-voice-in-15-seconds/
+- *The voice clone crisis: How AI scammers can steal your voice in 15 seconds*. (n.d.). Scamwatch HQ. Retrieved December 29, 2025, from https://www.scamwatchhq.com/the-voice-clone-crisis-how-ai-scammers-can-steal-your-voice-in-15-seconds/
 
-*Where are you from? Geolocating speech and applications to speech technology*. (2024). ACL Anthology. Retrieved December 29, 2025, from https://aclanthology.org/2024.naacl-long.286/
+- *Where are you from? Geolocating speech and applications to speech technology*. (2024). ACL Anthology. Retrieved December 29, 2025, from https://aclanthology.org/2024.naacl-long.286/
 
-*Leveraging geographic metadata for dialect-aware speech recognition*. (2025). ISCA Archive. Retrieved December 29, 2025, from https://www.isca-archive.org/interspeech_2025/mehralian25_interspeech.pdf
+- *Leveraging geographic metadata for dialect-aware speech recognition*. (2025). ISCA Archive. Retrieved December 29, 2025, from https://www.isca-archive.org/interspeech_2025/mehralian25_interspeech.pdf
 
-*Geolocation-aware robust spoken language identification* [Preprint]. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/abs/2508.17148
+- *Geolocation-aware robust spoken language identification* [Preprint]. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/abs/2508.17148
 
-*Spatial computing: Concept, applications, challenges and future directions*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/378439313_Spatial_Computing_Concept_Applications_Challenges_and_Future_Directions
+- *Spatial computing: Concept, applications, challenges and future directions*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/378439313_Spatial_Computing_Concept_Applications_Challenges_and_Future_Directions
 
-*Signature redacted* (Master’s thesis). (n.d.). DSpace@MIT. Retrieved December 29, 2025, from http://dspace.mit.edu/bitstream/handle/1721.1/91876/894358129-MIT.pdf?sequence=2&isAllowed=y
+- *Signature redacted* (Master’s thesis). (n.d.). DSpace@MIT. Retrieved December 29, 2025, from http://dspace.mit.edu/bitstream/handle/1721.1/91876/894358129-MIT.pdf?sequence=2&isAllowed=y
 
-*Investigating the benefits and operational gaps of 3D spatial audio technology in aircraft*. (2025). USAARL. Retrieved December 29, 2025, from https://usaarl.health.mil/assets/docs/techReports/2025-17.pdf
+- *Investigating the benefits and operational gaps of 3D spatial audio technology in aircraft*. (2025). USAARL. Retrieved December 29, 2025, from https://usaarl.health.mil/assets/docs/techReports/2025-17.pdf
 
-*EchoSee: An assistive mobile application for real-time 3D environment reconstruction and sonification supporting enhanced navigation for people with vision impairments*. (n.d.). MDPI. Retrieved December 29, 2025, from https://www.mdpi.com/2306-5354/11/8/831
+- *EchoSee: An assistive mobile application for real-time 3D environment reconstruction and sonification supporting enhanced navigation for people with vision impairments*. (n.d.). MDPI. Retrieved December 29, 2025, from https://www.mdpi.com/2306-5354/11/8/831
 
-*Efficient trajectory prediction using check-in patterns in location-based social network*. (n.d.). MDPI. Retrieved December 29, 2025, from https://www.mdpi.com/2504-2289/9/4/102
+- *Efficient trajectory prediction using check-in patterns in location-based social network*. (n.d.). MDPI. Retrieved December 29, 2025, from https://www.mdpi.com/2504-2289/9/4/102
 
-*Audio geolocation: A natural sounds benchmark* [Preprint]. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/abs/2505.18726
+- *Audio geolocation: A natural sounds benchmark* [Preprint]. (2025). arXiv. Retrieved December 29, 2025, from https://arxiv.org/abs/2505.18726
 
-Mordor Intelligence. (n.d.). *Sound recognition market size, share & 2030 growth trends report*. Retrieved December 29, 2025, from https://www.mordorintelligence.com/industry-reports/sound-recognition-market
+- Mordor Intelligence. (n.d.). *Sound recognition market size, share & 2030 growth trends report*. Retrieved December 29, 2025, from https://www.mordorintelligence.com/industry-reports/sound-recognition-market
 
-Frost & Sullivan. (2025). *Company of the year: Ambiq* [Award write-up]. Retrieved December 29, 2025, from https://www.frost.com/wp-content/uploads/2025/05/Ambiq-Final-Award-Write-up.pdf
+- Frost & Sullivan. (2025). *Company of the year: Ambiq* [Award write-up]. Retrieved December 29, 2025, from https://www.frost.com/wp-content/uploads/2025/05/Ambiq-Final-Award-Write-up.pdf
 
-Qualcomm. (n.d.). *Smart audio products & high quality audio technology*. Retrieved December 29, 2025, from https://www.qualcomm.com/audio
+- Qualcomm. (n.d.). *Smart audio products & high quality audio technology*. Retrieved December 29, 2025, from https://www.qualcomm.com/audio
 
-Harvard Edge. (n.d.). *On-device learning*. GitHub Pages. Retrieved December 29, 2025, from https://harvard-edge.github.io/cs249r_book/contents/core/ondevice_learning/ondevice_learning.html
+- Harvard Edge. (n.d.). *On-device learning*. GitHub Pages. Retrieved December 29, 2025, from https://harvard-edge.github.io/cs249r_book/contents/core/ondevice_learning/ondevice_learning.html
 
-Compliance Hub Wiki. (n.d.). *Game-changing victory: UK government commits to statutory defence for security researchers*. Retrieved December 29, 2025, from https://www.compliancehub.wiki/game-changing-victory-uk-government-commits-to-statutory-defence-for-security-researchers/
+- Compliance Hub Wiki. (n.d.). *Game-changing victory: UK government commits to statutory defence for security researchers*. Retrieved December 29, 2025, from https://www.compliancehub.wiki/game-changing-victory-uk-government-commits-to-statutory-defence-for-security-researchers/
 
-*Covert surveillance in smart devices: A scour framework analysis of youth privacy implications*. (n.d.). IEEE Xplore. Retrieved December 29, 2025, from https://ieeexplore.ieee.org/iel8/11267474/11267521/11267573.pdf
+- *Covert surveillance in smart devices: A scour framework analysis of youth privacy implications*. (n.d.). IEEE Xplore. Retrieved December 29, 2025, from https://ieeexplore.ieee.org/iel8/11267474/11267521/11267573.pdf
 
-Mansour, M. (2025). *A multi-layered privacy permission framework for extended reality*. Retrieved December 29, 2025, from http://www.medien.ifi.lmu.de/pubdb/publications/pub/mansour2025nspw/mansour2025nspw.pdf
+- Mansour, M. (2025). *A multi-layered privacy permission framework for extended reality*. Retrieved December 29, 2025, from http://www.medien.ifi.lmu.de/pubdb/publications/pub/mansour2025nspw/mansour2025nspw.pdf
 
-KingAsterisk. (n.d.). *Call center dialer software solutions: Predictive & auto*. Retrieved December 29, 2025, from https://kingasterisk.com/category/call-center-dialer-software-solutions/
+- KingAsterisk. (n.d.). *Call center dialer software solutions: Predictive & auto*. Retrieved December 29, 2025, from https://kingasterisk.com/category/call-center-dialer-software-solutions/
 
-Ramco Systems. (2020). *Digital transformation* [Annual report]. Retrieved December 29, 2025, from https://www.ramco.com/hubfs/PDF%20Download%20URL/Annual%20Reports/ramco_annual_report_2019-20.pdf
+- Ramco Systems. (2020). *Digital transformation* [Annual report]. Retrieved December 29, 2025, from https://www.ramco.com/hubfs/PDF%20Download%20URL/Annual%20Reports/ramco_annual_report_2019-20.pdf
 
-*Privacy, confidentiality and ethical concerns in audio AI assistants: A comparative study of North American, European, and Asian markets*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/385289571_Privacy_confidentiality_and_ethical_concerns_in_audio_ai_assistants_A_comparative_study_of_North_American_European_and_Asian_Markets
+- *Privacy, confidentiality and ethical concerns in audio AI assistants: A comparative study of North American, European, and Asian markets*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/385289571_Privacy_confidentiality_and_ethical_concerns_in_audio_ai_assistants_A_comparative_study_of_North_American_European_and_Asian_Markets
 
-*A comparative analysis of signal processing and classification methods for different applications based on EEG signals*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/339420180_A_comparative_analysis_of_signal_processing_and_classification_methods_for_different_applications_based_on_EEG_signals
+- *A comparative analysis of signal processing and classification methods for different applications based on EEG signals*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/339420180_A_comparative_analysis_of_signal_processing_and_classification_methods_for_different_applications_based_on_EEG_signals
 
-RWS. (2025). *AI dubbing in 2025: The complete guide for global business and content leaders*. Retrieved December 29, 2025, from https://www.rws.com/blog/ai-dubbing-in-2025/
+- RWS. (2025). *AI dubbing in 2025: The complete guide for global business and content leaders*. Retrieved December 29, 2025, from https://www.rws.com/blog/ai-dubbing-in-2025/
 
-*AI and privacy concerns in data security*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/383693183_AI_and_Privacy_Concerns_in_Data_Security
+- *AI and privacy concerns in data security*. (n.d.). ResearchGate. Retrieved December 29, 2025, from https://www.researchgate.net/publication/383693183_AI_and_Privacy_Concerns_in_Data_Security
