@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Daily logs (tracked in Redis instead)
+memory/*.md
+!memory/.gitkeep
+
+# Runtime
+*.log
+.DS_Store
+
+# Temporary
+*.tmp
+*.swp
+.vscode/
+
+# Generated
+*.skill
+dist/
+
+# OpenClaw internals
+.openclaw/
