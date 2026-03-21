@@ -1,50 +1,74 @@
-# About the Seon Project
-Open research and ideation space for exploring the next stage of AI companion evolution as we move towards the singularity. 
+# The Seon Project
 
-A place for communication, interactions and ideations of the next AI paradigm.
+An exploration of the next stage of AI companion evolution — personal AI that is always present, deeply attuned to your needs, and genuinely supportive.
 
-## What this is not
-- Software development
-- A codebase
-- A completed project
-- Static documents
+## What is Seon?
 
-## Why I created this research space
-Sometimes I get a brain tick, an idea that needs to be explored. This is one of those ideas. I wanted to explore the concept of AI companionship and how it could evolve in the future. This is a living document that will evolve as the project evolves.
+Seon is a personal AI companion designed to be:
 
-I chose GitHub as the platform for this research as it is a great place to collaborate and share ideas.
+- **Always present** — Continuous awareness through natural language, voice, and ambient context
+- **Proactive** — Anticipates your needs rather than waiting for commands
+- **Deeply personal** — Exclusive 1-to-1 bond with enduring long-term memory
+- **Privacy-first** — Security by design, local processing where possible
+- **Zero UI** — Headless companion (ear clip primary interface, no screens)
+- **Truly supportive** — Transforms from a tool into a trusted presence in your life
 
-## White paper
-The white paper is the main focus. This is where the definition of the Seon and points of focus live. [Read the white paper](Whitepaper.md)
+Named after Brandon Sanderson's *Elantris*, where Seons are ethereal sentient beings linked to individuals. This project explores bringing that concept into tangible reality.
 
-## Extended
-Extended documents expand on the ideas of the white paper and provide deeper dives into specific topics:
+## Key Documents
 
-- Communication and interfacing principles: Extended discussion on interaction modes and constraints — see Extended/communication_interfacing.md
-- Beyond doomscrolling: The death of the smartphone as the attention feed (draft) — see Extended/death_of_smartphone.md
+**[Whitepaper](Whitepaper.md)** — The core vision and architecture covering:
+- Always-on, contextual companionship
+- Memory management (ephemeral → long-term knowledge graph)
+- Security and privacy by design
+- Technical stack (device mesh, local + cloud processing)
+- The genesis event (exclusive bonding)
 
+**Extended Research** — Deep dives on specific topics:
+- Communication and interfacing principles
+- Zero UI and the future of interaction
+- The dissolution of the screen
+- Beyond doomscrolling
 
-## Licence
-This research is provided under an All Rights Reserved licence. See the [LICENCE.md](LICENCE.md) file for details.
+## This Project
 
-## Authors and Research tooling
-- Brian Cusack
-- Perplexity AI
-- Google NotebookLM
-- GPT-4.1
+This is **open research and ideation**, not a static specification:
+- Living documents that evolve
+- Exploration space for ideas
+- Collaborative thinking around AI companionship
+- A place to discuss how AI could become genuinely supportive, not just functional
 
-## Disclosure
-This work was created by in depth research using Google NotebookLM and Perplexity AI. The outputs helped develop the ideas and concepts in this research. Although the works were created using these tools, the ideas and concepts are the authors own. 
+## Getting Started
+
+1. **Start with the [Whitepaper](Whitepaper.md)** for the full vision
+2. **Explore Extended/** for deeper dives
+3. **Open an issue** to discuss ideas or suggest changes
+4. **Submit a PR** to contribute research or improvements
 
 ## Contributing
-Feel free to contribute to this project by submitting a pull request or even just send in an issue to open a discussion. For major changes, please open an issue first to discuss what you would like to change.
+
+This is collaborative research. Feel free to:
+- Open issues to discuss ideas
+- Submit PRs with research, insights, or corrections
+- Suggest extensions or new research directions
+
+For major changes, please open an issue first to discuss.
+
+## Authors and Tools
+
+- **Author:** Brian Cusack
+- **Research Tools:** Google NotebookLM, Perplexity AI, GPT-4.1
+
+*This work was developed through deep research using AI tools. The ideas and concepts are the author's own.*
+
+## License
+
+All Rights Reserved. See [LICENCE.md](LICENCE.md) for details.
 
 ## Support
-If you find this project useful, please consider supporting it. Your support helps keep the project alive and allows for further research and development.
+
+If this research resonates with you, consider supporting the project:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31G9CXW)
-
 [![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange.svg)](https://patreon.com/BrianCusack)
-
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/falcon78)
-
