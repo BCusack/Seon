@@ -11,6 +11,7 @@
     - [**Always On \& Contextual Awareness**](#always-on--contextual-awareness)
     - [**Exclusive \& Enduring Bond: Yours Forever**](#exclusive--enduring-bond-yours-forever)
     - [**Long-Term and Short-Term Memory Management**](#long-term-and-short-term-memory-management)
+      - [**Memory Decay and Retrieval Priority**](#memory-decay-and-retrieval-priority)
     - [**Securing Your Information and Communication in the Wild**](#securing-your-information-and-communication-in-the-wild)
     - [**Technical Considerations**](#technical-considerations)
     - [**Conclusion**](#conclusion)
@@ -82,6 +83,18 @@ Seon’s memory architecture supports the creation of knowledge-graph-like conne
 
 The allocation and management of memory is guided by principles of salience, relevance, and user privacy. The Seon can generalize from past experiences, adapt to new contexts, and even restructure its memory graph as the user’s life and needs evolve (Hassabis et al. 2017; Khandelwal et al. 2019). This approach enables the Seon to deliver contextually aware, proactive support while maintaining a strong commitment to data minimisation and user control.
 
+#### **Memory Decay and Retrieval Priority**
+
+A critical architectural commitment, implicitly present in the salience model but deserving explicit specification, is the mechanism by which the memory graph *forgets*. Without a principled decay mechanism, the graph accumulates low-salience nodes indefinitely, increasing storage and retrieval cost. The Seon addresses this through the **Fibonacci Memory Graph (FMG)** framework, which unifies memory decay and retrieval priority under a single mathematical structure.
+
+Retrieval priority is managed via a **Fibonacci heap** imposed over the knowledge graph nodes, keyed by each node's current salience score. The Fibonacci heap provides O(1) amortized cost for the most frequent operations—inserting new nodes and updating salience on reinforcement—and O(log n) cost for retrieving the top-k most salient nodes for RAG context assembly (Fredman and Tarjan 1987). On resource-constrained edge devices, this ensures that only the highest-salience memories occupy active working memory at any time.
+
+Decay is governed by a **Fibonacci-interval reinforcement schedule** inspired by the empirical memory research of Ebbinghaus (1885), the Leitner spaced-repetition system (1972), and Wozniak's SM-2 algorithm (1990). Each memory node is assigned a reinforcement stage and reviewed at intervals that follow the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21… interaction-events. A node reinforced before its checkpoint advances to a longer interval; an unreinforced node regresses one stage and its salience is multiplied by φ⁻¹ ≈ 0.618, where φ is the golden ratio. When salience falls below a configurable minimum, the node is permanently deleted.
+
+The continuous analogue of this schedule uses φ as its natural decay constant: S(t) = S₀ · φ^(−t/τ), where τ is a per-user time constant calibrated to individual interaction patterns. The two representations—discrete Fibonacci checkpoints and continuous φ-decay—converge asymptotically, yielding a **self-similar forgetting curve** in which the same proportional forgetting occurs at every scale of the schedule.
+
+This design constitutes **architectural data minimisation**: stale memories are pruned by mathematical inevitability rather than by user action or scheduled maintenance jobs. For a full formal treatment, see the companion research paper *Fibonacci Memory Graph Architecture: A Bio-Mimetic Framework for Sovereign Memory Decay and Retrieval in Edge AI Companions* (The Seon Project 2026).
+
 ### **Securing Your Information and Communication in the Wild**
 
 Privacy and security are not afterthoughts but foundational pillars of The Seon's architecture, governed by the principle of "security by design." To establish and maintain user trust, a multi-layered security protocol is implemented, ensuring that all data and communications are protected at every stage, from external interactions to internal processing.
@@ -112,6 +125,11 @@ The Seon project represents a significant advancement in the development of AI c
 *  Itti, Laurent, and Christof Koch. 2001. "Computational Modelling of Visual Attention." *Nature Reviews Neuroscience* 2, no. 3: 194–203. https://www.nature.com/articles/35058500
 *  Zacks, Jeffrey M., and Keith M. Swallow. 2007. "Event Segmentation." *Current Directions in Psychological Science* 16, no. 2: 80–84. https://journals.sagepub.com/doi/10.1111/j.1467-8721.2007.00480.x
 *  Graves, Alex, Greg Wayne, and Ivo Danihelka. 2014. "Neural Turing Machines." arXiv preprint arXiv:1410.5401. https://arxiv.org/abs/1410.5401
+*  Ebbinghaus, Hermann. 1885. *Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie*. Leipzig: Duncker & Humblot. [Translated as *Memory: A Contribution to Experimental Psychology*, 1913.]
+*  Fredman, Michael L., and Robert Endre Tarjan. 1987. "Fibonacci Heaps and Their Uses in Improved Network Optimization Algorithms." *Journal of the ACM* 34, no. 3: 596–615. https://dl.acm.org/doi/10.1145/28869.28874
+*  Leitner, Sebastian. 1972. *So lernt man lernen: Der Weg zum Erfolg*. Freiburg im Breisgau: Herder.
+*  Wozniak, Piotr A. 1990. "Optimization of Learning." MS thesis, University of Technology, Poznań. https://www.supermemo.com/en/blog/application-of-a-computer-to-improve-the-results-obtained-in-working-with-the-supermemo-method
+*  The Seon Project. 2026. *Fibonacci Memory Graph Architecture: A Bio-Mimetic Framework for Sovereign Memory Decay and Retrieval in Edge AI Companions*. Research/Fibonacci Memory Graph Architecture.md.
 
 *  Brandon Sanderson, E. (2005). *Elantris*. Tor Books.
 *  Bin Han and Cleo Yau and Su Lei and Jonathan Gratch. (2024). *Knowledge-based Emotion Recognition using Large Language Models*. arxiv.
