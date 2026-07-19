@@ -1,3 +1,9 @@
 .github/
 .vscode/
 .vscode/settings.json
+
+
+# Files 
+Phase 1 VAD speaker research.md
+# everything in the knowledge folder is ignored
+knowledge/

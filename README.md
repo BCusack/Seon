@@ -24,6 +24,8 @@ Named after Brandon Sanderson's *Elantris*, where Seons are ethereal sentient be
 - Technical stack (device mesh, local + cloud processing)
 - The genesis event (exclusive bonding)
 
+**[Knowledge Index](Knowledge/index.md)** — Agent-oriented entry point for the OKF-aligned documentation pilot.
+
 **Extended Research** — Deep dives on specific topics:
 - Communication and interfacing principles
 - Zero UI and the future of interaction

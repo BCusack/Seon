@@ -1,3 +1,14 @@
+---
+type: Research Paper
+title: Fibonacci Memory Graph Architecture
+description: A proposed framework for salience-based memory decay and retrieval in a sovereign edge AI companion.
+tags: [memory, knowledge-graph, retrieval, edge-ai, privacy]
+timestamp: 2026-07-19T10:51:38+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+---
+
 # Fibonacci Memory Graph Architecture: A Bio-Mimetic Framework for Sovereign Memory Decay and Retrieval in Edge AI Companions
 
 **Author:** The Seon Project

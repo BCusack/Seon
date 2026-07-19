@@ -1,4 +1,17 @@
-﻿# Architecting the Sovereign Mind: Integrating Bio-Mimetic Fibonacci Graphs with Phase-Adaptive Federated Learning for Private AI Companions
+---
+type: Research Paper
+title: Sovereignty in the Age of Cognitive Extractivism
+description: A proposal for sovereign AI companions that combines private local memory with phase-adaptive federated learning.
+tags: [sovereignty, privacy, federated-learning, memory, cognitive-extractivism]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Fibonacci Memory Graph Architecture.md
+  - /Research/Decentralised AI and the Intimacy Economy.md
+---
+
+# Architecting the Sovereign Mind: Integrating Bio-Mimetic Fibonacci Graphs with Phase-Adaptive Federated Learning for Private AI Companions
 
 ## Abstract
 As operational costs for frontier large language models (LLMs) escalate, the artificial intelligence industry is reaching a fiscal breaking point, necessitating a shift toward ad-supported and curated response models

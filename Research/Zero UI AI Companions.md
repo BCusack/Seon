@@ -1,4 +1,13 @@
-
+---
+type: Research Paper
+title: Zero UI AI Companions
+description: A strategic analysis of ambient, screenless AI companionship, its enabling technologies, and societal trade-offs.
+tags: [zero-ui, ambient-computing, interaction-design, edge-ai, privacy]
+timestamp: 2026-07-19T10:51:38+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+---
 
 # **Zero UI AI Companions: A Strategic Analysis of the Ambient Future, Design Paradigms, and Societal Trade-Offs**
 

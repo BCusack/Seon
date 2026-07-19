@@ -1,3 +1,15 @@
+---
+type: Research Essay
+title: Beyond the Smartphone
+description: A design argument for a bounded, consent-led companion that resists attention-economy engagement patterns.
+tags: [digital-wellbeing, attention-economy, zero-ui, consent, ai-companion]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/The Future is Zero UI.md
+---
+
 # Beyond The Smart Phone
 
 What if the problem isn’t our attention span?

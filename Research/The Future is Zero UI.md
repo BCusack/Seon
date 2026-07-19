@@ -1,3 +1,15 @@
+---
+type: Research Essay
+title: The Future of AI is Zero UI
+description: An accessible case for ambient, screenless AI companionship as a path to improved digital wellbeing.
+tags: [zero-ui, ambient-computing, digital-wellbeing, interaction-design, privacy]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Zero UI AI Companions.md
+---
+
 # The Future of AI is Zero UI
 
 *How ambient, screenless companions could free us from our devices and improve our digital wellbeing.*

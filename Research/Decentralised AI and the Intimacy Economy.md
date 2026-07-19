@@ -1,3 +1,16 @@
+---
+type: Research Paper
+title: Decentralised AI and the Intimacy Economy
+description: An analysis of extractive AI business models and a privacy-preserving alternative for personal AI companions.
+tags: [decentralised-ai, autonomy, privacy, ethics, intimacy-economy]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Sovereignty in the Age of Cognitive Extractivism.md
+  - /Research/Effective AI companions.md
+---
+
 # **Decentralised AI: Autonomy and the Intimacy Economy**
 
 The contemporary digital landscape is undergoing a foundational shift as generative artificial intelligence transitions from an experimental utility to a systemic layer of human cognition. This evolution occurs within the established framework of the attention economy, which has long optimised for the harvesting and monetisation of human curiosity (Berman & Katona, 2020). However, the astronomical costs associated with training and maintaining large language models (LLMs) have introduced a new fiscal imperative: the recouping of multi-billion dollar infrastructure investments (Bradley, 2025). As Big Tech firms confront staggering debt packages—such as the $27 billion package recently reported for Meta—the monetisation of AI interactions is moving beyond simple subscriptions toward an "attention economy infiltrated" future (Reuters, 2025). In this impending reality, AI models are no longer neutral tools but "intention architects" designed to curate responses that satisfy both user queries and advertiser objectives (Shorenstein Center, 2024). This curation introduces a pervasive bias, potentially causing deeper psychological and societal harm than the social media algorithms of the previous decade (Bozdağ, 2024). The Seon Project points us to a divergent paradigm, proposing an architecture of "personally isolated and individually linked" AI companions. By prioritising local processing, cryptographic privacy, and a decentralised collective intelligence, seeking to decouple cognitive assistance from extractive monetisation, thereby safeguarding individual autonomy in an age of synthetic intimacy (George et al., 2025).

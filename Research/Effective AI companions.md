@@ -1,3 +1,15 @@
+---
+type: Research Paper
+title: Psychological Effects of Seon-Style AI Companions
+description: An assessment of likely benefits, risks, and autonomy-preserving guardrails for always-on AI companionship.
+tags: [psychology, wellbeing, autonomy, ethics, ai-companion]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Decentralised AI and the Intimacy Economy.md
+---
+
 # Psychological Effects of The Seon-Style AI Companions: Likely Impacts, Media Concerns, and Design Rebuttals
 
 **Author:** The Seon Project

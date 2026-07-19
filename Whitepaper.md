@@ -1,3 +1,15 @@
+---
+type: Project Whitepaper
+title: The Seon Project
+description: The core vision, principles, and high-level architecture for a privacy-first AI companion.
+tags: [ai-companion, zero-ui, privacy, memory, architecture]
+timestamp: 2026-07-19T10:51:38+10:00
+status: canonical
+related_concepts:
+  - /Research/Fibonacci Memory Graph Architecture.md
+  - /Research/Zero UI AI Companions.md
+---
+
 # White Paper: The Seon Project 
 ## *The AI Companion*
 
@@ -145,4 +157,3 @@ The Seon project represents a significant advancement in the development of AI c
 *  Taddeo, M., & Floridi, L. (2018). How AI can be a force for good. *Science*, *361*(6404), 751-752.
 *  Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. *Advances in neural information processing systems*, *30*.
 *  Zhou, Xinxin, et al. 2022. “A Survey on Edge Computing in Internet of Things: Architecture, Key Technologies, and Open Issues.” IEEE Communications Surveys & Tutorials 24 (2): 1119–1152.
-

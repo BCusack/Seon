@@ -1,4 +1,14 @@
-
+---
+type: Research Paper
+title: The Dissolution of the Screen
+description: An analysis of the technical, cognitive, and ethical implications of the transition from graphical interfaces to Zero UI companions.
+tags: [zero-ui, human-computer-interaction, ambient-computing, ethics, earables]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Zero UI AI Companions.md
+---
 
 # **The Dissolution of the Screen: A Comprehensive Analysis of Zero UI, AI Companions, and the Teleology of the Invisible Interface**
 

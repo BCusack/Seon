@@ -1,3 +1,14 @@
+---
+type: Technical Research
+title: Architectural Paradigms and Acoustic Intelligence
+description: A survey of always-listening Zero UI architectures, acoustic intelligence, and privacy-preserving edge processing.
+tags: [zero-ui, acoustic-intelligence, speaker-diarization, edge-ai, privacy]
+timestamp: 2026-07-19T10:53:53+10:00
+status: exploratory
+related_concepts:
+  - /Whitepaper.md
+  - /Research/Phase 1 VAD speaker research.md
+---
 
 # Architectural Paradigms and Acoustic Intelligence in Always-Listening Zero UI Systems
 
