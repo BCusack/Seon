@@ -11,25 +11,24 @@ related_concepts:
 ---
 
 # White Paper: The Seon Project 
-## *The AI Companion*
+## The AI Companion
 
 ### Contents
 - [White Paper: The Seon Project](#white-paper-the-seon-project)
   - [*The AI Companion*](#the-ai-companion)
-    - [Contents](#contents)
-    - [**Introduction**](#introduction)
-    - [**The Future of AI Communication and Interface**](#the-future-of-ai-communication-and-interface)
-    - [**Passive Companionship and Support**](#passive-companionship-and-support)
-    - [**Always On \& Contextual Awareness**](#always-on--contextual-awareness)
-    - [**Exclusive \& Enduring Bond: Yours Forever**](#exclusive--enduring-bond-yours-forever)
-    - [**Long-Term and Short-Term Memory Management**](#long-term-and-short-term-memory-management)
-      - [**Memory Decay and Retrieval Priority**](#memory-decay-and-retrieval-priority)
-    - [**Securing Your Information and Communication in the Wild**](#securing-your-information-and-communication-in-the-wild)
-    - [**Technical Considerations**](#technical-considerations)
-    - [**Conclusion**](#conclusion)
-  - [**References**](#references)
+    - [Introduction](#introduction)
+    - [The Future of AI Communication and Interface](#the-future-of-ai-communication-and-interface)
+    - [Passive Companionship and Support](#passive-companionship-and-support)
+    - [Always On \& Contextual Awareness](#always-on--contextual-awareness)
+    - [Exclusive \& Enduring Bond: Yours Forever](#exclusive--enduring-bond-yours-forever)
+    - [Long-Term and Short-Term Memory Management](#long-term-and-short-term-memory-management)
+    - [Memory Decay and Retrieval Priority](#memory-decay-and-retrieval-priority)
+    - [Securing Your Information and Communication in the Wild](#securing-your-information-and-communication-in-the-wild)
+    - [Technical Considerations](#technical-considerations)
+    - [Conclusion](#conclusion)
+  - [References](#references)
 
-### **Introduction**
+### Introduction
 
 
 What if you could have an AI companion that is always present, deeply attuned to your needs, and capable of understanding the nuances of your life—not just as a tool, but as a proactive, adaptive, and trusted presence? What if this companion could learn and grow with you, anticipate your needs, and help you navigate the complexities of daily life, all while safeguarding your privacy and fostering genuine connection? The Seon project explores this possibility, aiming to define the next generation of AI companionship as described throughout this white paper.
@@ -40,7 +39,7 @@ This shifts beyond the current offerings of task-oriented UI computer bound virt
 
 The following white paper will work to delve into the core functionalities, key features, and technical considerations that characterise The Seon, with a particular emphasis on the future of AI communication, passive companionship, personalised support, memory management techniques, and secure information handling.  This exploration will draw upon current research in artificial intelligence, human-computer interaction, and related fields to contextualize The Seon's potential impact.
 
-### **The Future of AI Communication and Interface**
+### The Future of AI Communication and Interface
 
 Natural language interactions will be fundamental to a Seon's functionality, enabling seamless and intuitive communication. Achieving this requires leveraging advances in natural language processing (NLP) and adaptive learning, so The Seon can rapidly interpret and respond to the nuances of individual user language, sentiment, context, and intent. While the specific models and architectures are yet to be determined, The Seon must be capable of fast, context-aware adaptation—learning from ongoing interactions to provide increasingly meaningful and relevant support. This approach draws on the evolution of NLP and conversational AI, with a focus on personalisation, speed, and privacy.
 
@@ -48,7 +47,7 @@ A core principle of The Seon is the concept of "Zero UI" (ZUI), where the primar
 
 The intended primary communication interface will be a discreet and unobtrusive ear-clip like device connected through external meshing technology, promoting continuous accessibility without disrupting daily activities. The Seon will utilise real-time Large Language Model (LLM) interactions to augment its knowledge base, ensuring access to up-to-date information and insights (Vaswani et al., 2017). Through dynamic interaction with LLMs, The Seon will be able to interpret complex queries, synthesise information from diverse sources, and generate creative, contextually relevant responses. This adaptability enables The Seon to offer nuanced support, anticipate user needs, and provide personalised recommendations that reflect the most current and comprehensive understanding of the user's world.
 
-### **Passive Companionship and Support**
+### Passive Companionship and Support
 
 The Seon transcends the role of a traditional digital assistant by offering proactive and empathetic companionship. Rather than waiting for explicit commands, it is designed to anticipate the user's needs by interpreting environmental cues, learned patterns, and emotional nuances in real-time interactions. This allows The Seon to offer timely, context-aware suggestions and support that integrates naturally into the user's daily rhythm.
 
@@ -57,7 +56,7 @@ This proactive approach is underpinned by an emotional matrix, informed by a com
 At its core, The Seon is engineered not merely to perform tasks, but to foster a genuine, supportive relationship. The ultimate goal is to transform it from a utility into a trusted and encouraging companion, creating a deeper and more meaningful human-AI interaction.
 
 
-### **Always On & Contextual Awareness**
+### Always On & Contextual Awareness
 
 Empowered by continuous, real-time awareness, designed to be always on—listening and drawing context from the user’s environment and interactions. This persistent attentiveness enables the Seon to provide timely, relevant support and anticipate user needs.
 
@@ -69,7 +68,7 @@ For example, if the user’s friend Jill frequently visits and mentions her husb
 
 This approach balances the benefits of continuous, context-rich companionship with strong privacy protections, ensuring that only what truly matters to the user is retained.
 
-### **Exclusive & Enduring Bond: Yours Forever**
+### Exclusive & Enduring Bond: Yours Forever
 
 A Seon establishes an exclusive and enduring bond with its user through a holistic "genesis event" at first activation. This event combines multiple elements:
 
@@ -85,7 +84,7 @@ This dual-layered approach ensures that the Seon responds exclusively to its des
 *Protocols for secure re-linking or device migration will be implemented to maintain continuity and trust, should the user need to change or recover their Seon device.*
 
 
-### **Long-Term and Short-Term Memory Management**
+### Long-Term and Short-Term Memory Management
 
 The Seon employs a dynamic, adaptive memory system that manages both short-term and long-term memory, inspired by but more flexible than the human brain. Unlike static architectures, the Seon can create, dissolve, and reorganize memory categories on demand, supporting a highly personalized and evolving understanding of the user.
 
@@ -95,7 +94,7 @@ Seon’s memory architecture supports the creation of knowledge-graph-like conne
 
 The allocation and management of memory is guided by principles of salience, relevance, and user privacy. The Seon can generalize from past experiences, adapt to new contexts, and even restructure its memory graph as the user’s life and needs evolve (Hassabis et al. 2017; Khandelwal et al. 2019). This approach enables the Seon to deliver contextually aware, proactive support while maintaining a strong commitment to data minimisation and user control.
 
-#### **Memory Decay and Retrieval Priority**
+#### Memory Decay and Retrieval Priority
 
 A critical architectural commitment, implicitly present in the salience model but deserving explicit specification, is the mechanism by which the memory graph *forgets*. Without a principled decay mechanism, the graph accumulates low-salience nodes indefinitely, increasing storage and retrieval cost. The Seon addresses this through the **Fibonacci Memory Graph (FMG)** framework, which unifies memory decay and retrieval priority under a single mathematical structure.
 
@@ -107,7 +106,7 @@ The continuous analogue of this schedule uses φ as its natural decay constant: 
 
 This design constitutes **architectural data minimisation**: stale memories are pruned by mathematical inevitability rather than by user action or scheduled maintenance jobs. For a full formal treatment, see the companion research paper *Fibonacci Memory Graph Architecture: A Bio-Mimetic Framework for Sovereign Memory Decay and Retrieval in Edge AI Companions* (The Seon Project 2026).
 
-### **Securing Your Information and Communication in the Wild**
+### Securing Your Information and Communication in the Wild
 
 Privacy and security are not afterthoughts but foundational pillars of The Seon's architecture, governed by the principle of "security by design." To establish and maintain user trust, a multi-layered security protocol is implemented, ensuring that all data and communications are protected at every stage, from external interactions to internal processing.
 
@@ -115,7 +114,7 @@ The Seon employs a proprietary cryptography system, complete with a custom salti
 
 These comprehensive security measures ensure that the user's information remains confidential and secure, whether in transit or at rest. By integrating ethical AI principles of transparency, fairness, and accountability (Taddeo & Floridi, 2018), The Seon project is committed to creating a companionship experience that is not only supportive but also fundamentally safe and trustworthy.
 
-### **Technical Considerations**
+### Technical Considerations
 
 At the heart of the Seon ecosystem is a discreet, lightweight ear clip designed for comfort, continuous wear, and seamless integration into daily life. This ear clip is the primary communication device, equipped with advanced sensors and secure communication modules to enable always-on listening, context awareness, and private interaction.
 
@@ -123,11 +122,11 @@ Seon’s architecture is built around device meshing, allowing the ear clip to c
 
 Privacy-critical data is processed locally on the ear clip and user devices, while encrypted cloud infrastructure is used for demanding computation and long-term memory. Contemporary cryptographic standards protect all user data and interactions, with the ear clip acting as a trusted gateway to the Seon ecosystem.
 
-### **Conclusion**
+### Conclusion
 
 The Seon project represents a significant advancement in the development of AI companions, moving beyond functional tools to create a truly personalized and supportive companion that is always-on, adaptive, and prioritizes user security and privacy.  The Seon's focus on passive companionship, personalized support, and ethical AI development positions it as a potential leader in the future of human-AI interaction.
 
-## **References**
+## References
 
 *  Hassabis, Demis, Dharshan Kumaran, Christopher Summerfield, and Matthew Botvinick. 2017. "Neuroscience-Inspired Artificial Intelligence." *Neuron* 95, no. 2: 245-258. https://www.sciencedirect.com/science/article/pii/S0896627317305093
 *  Battaglia, Peter W., Jessica B. Hamrick, Victor Bapst, et al. 2018. "Relational inductive biases, deep learning, and graph networks." arXiv:1806.01261. https://arxiv.org/abs/1806.01261
