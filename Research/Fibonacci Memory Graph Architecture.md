@@ -17,7 +17,7 @@ related_concepts:
 
 ## Abstract
 
-Memory management in sovereign, edge-deployed AI companions presents a distinctive computational challenge: a bounded-resource device must maintain a semantically rich, personalized knowledge graph that grows with lived experience, yet must also forget gracefully to preserve both privacy and efficiency. Existing approaches acknowledge decay as a desirable property but provide no formal mechanism. This paper proposes the **Fibonacci Memory Graph (FMG)** framework, which unifies three mathematically related structures—the Fibonacci heap for priority-ordered retrieval, the Fibonacci sequence for spaced decay checkpoints, and the golden ratio φ as the continuous decay constant—into a single, self-similar memory architecture. We situate FMG within the Seon Project's sovereign edge intelligence paradigm, demonstrating that Fibonacci-structured forgetting is not merely computationally efficient but constitutes a form of **architectural data minimisation**: stale memories are pruned by mathematical inevitability rather than user intervention or policy enforcement. This property is especially significant in the context of Phase-Adaptive Federated Learning (PAFL), where a leaner local memory graph reduces the information surface exposed during collaborative training phases.
+Memory management in sovereign, edge-deployed AI companions presents a distinctive computational challenge: a bounded-resource device must maintain a semantically rich, personalized knowledge graph that grows with lived experience, yet must also forget gracefully to preserve both privacy and efficiency. Existing approaches acknowledge decay as a desirable property but provide no formal mechanism. This paper proposes the **Fibonacci Memory Graph (FMG)** framework, which unifies three mathematically related structures—the Fibonacci heap for priority-ordered retrieval, the Fibonacci sequence for spaced decay checkpoints, and the golden ratio φ as the continuous decay constant—into a single memory architecture. We situate FMG within the Seon Project's sovereign edge intelligence paradigm, demonstrating that Fibonacci-structured forgetting is not merely computationally efficient but constitutes a form of **architectural data minimisation**: stale memories are pruned by mathematical inevitability rather than user intervention or policy enforcement. This property is especially significant in the context of Phase-Adaptive Federated Learning (PAFL), where a leaner local memory graph reduces the information surface exposed during collaborative training phases.
 
 **Keywords:** Fibonacci heap; spaced repetition; memory decay; knowledge graph; edge AI; data minimisation; sovereign AI; retrieval-augmented generation
 
@@ -34,7 +34,7 @@ The FMG framework addresses both failures simultaneously. By grounding salience 
 1. **O(1) amortized salience updates** via Fibonacci heap key operations
 2. **Graduated, self-reinforcing forgetting** via Fibonacci-spaced decay checkpoints
 3. **A continuous, analytically tractable decay function** whose natural base is the golden ratio φ ≈ 1.618
-4. **Mathematical self-similarity** that unifies the discrete and continuous components
+4. **A stage-dependent continuous decay model** that matches the discrete schedule exactly and gives every unreinforced memory a bounded deletion time
 
 The paper proceeds as follows. Section 2 reviews the relevant background across cognitive science, spaced-repetition systems, and data structure theory. Section 3 develops the FMG framework formally. Section 4 demonstrates integration with the Seon's existing architectural components. Section 5 discusses advantages, limitations, and open questions. Section 6 concludes.
 
@@ -48,7 +48,7 @@ Hermann Ebbinghaus (1885) established empirically that memory retention decays a
 
 Sebastian Leitner (1972) operationalized this insight into the Leitner box system: items correctly recalled advance to a box with a longer review interval; items forgotten regress to a shorter interval. The review schedule is discrete and growing, a structure that anticipates the Fibonacci sequence. Piotr Wozniak (1990) formalized this into the SuperMemo SM-2 algorithm, which computes an *easiness factor* and assigns progressively longer inter-repetition intervals to well-retained items.
 
-The critical shared insight across these systems is that **the optimal review interval grows super-linearly with successive successful retrievals**. A linearly growing schedule under-spaces early reviews (wasting computation) and over-clusters late reviews (failing to challenge fading memories). The Fibonacci sequence—whose growth is sub-exponential but super-linear—represents a natural calibration point.
+The critical shared insight across these systems is that **the optimal review interval grows super-linearly with successive successful retrievals**. A linearly growing schedule under-spaces early reviews (wasting computation) and over-clusters late reviews (failing to challenge fading memories). The Fibonacci sequence—which grows exponentially, but at rate φ ≈ 1.618 rather than the doubling of a binary schedule—represents a natural calibration point between gentle and aggressive spacing.
 
 ### 2.2 Fibonacci Numbers and the Golden Ratio
 
@@ -145,30 +145,35 @@ The two consecutive F=1 stages at the beginning mirror the Leitner system's init
 
 ### 3.4 FMG-φ: The Continuous Golden Ratio Decay Function
 
-The continuous analogue of FMG-S is:
+> **Revision note (Nov 2026):** An earlier version of this section claimed that a single exponential $S(t) = S_0 \cdot \varphi^{-t/\tau}$, evaluated at Fibonacci checkpoints, converges to a constant decay ratio. That claim was incorrect: the ratio $\varphi^{-F_{n-1}/\tau}$ tends to 0 as $n$ grows, because exponential decay sampled at exponentially spaced checkpoints is not self-similar. This section replaces it with a model that matches FMG-S exactly.
 
-$$S(t) = S_0 \cdot \varphi^{-t/\tau}$$
+Let $\tau > 0$ be a per-user **personalizable time constant** that scales the schedule: the checkpoint for a node at stage $r$ falls $\tau F_r$ interaction-events after its last event (larger $\tau$ = slower forgetting, appropriate for users with long interaction gaps or high continuity needs). $\tau = 1$ recovers the schedule in Section 3.3 exactly.
 
-where:
-- $S_0 \in [0, 1]$ is the salience score at the most recent reinforcement event
-- $t$ is elapsed time measured in interaction-events since last reinforcement
-- $\tau > 0$ is a per-user **personalizable time constant** that governs the rate of forgetting (larger $\tau$ = slower decay, appropriate for users with long interaction gaps or high continuity needs)
+**Within a stage.** A node waiting at stage $r$ loses a factor $\varphi$ of salience over one interval of $\tau F_r$ events. Its continuous analogue is therefore exponential with a **stage-dependent** time constant:
 
-This is equivalent to standard exponential decay with base $e$ when written as:
+$$S(t) = S_0 \cdot \varphi^{-t/(\tau F_r)} = S_0 \cdot e^{-\lambda_r t}, \qquad \lambda_r = \frac{\ln \varphi}{\tau F_r} \approx \frac{0.481}{\tau F_r}$$
 
-$$S(t) = S_0 \cdot e^{-t \ln(\varphi) / \tau}$$
+where $S_0 \in [0,1]$ is the salience at the start of the interval and $t$ is measured in interaction-events. This matches the discrete rule $S \leftarrow S \cdot \varphi^{-1}$ exactly at every checkpoint. Well-established memories (high $r$) decay slowly; new ones decay quickly, consistent with Ebbinghaus's observation that the rate of forgetting depends on reinforcement history.
 
-The natural decay constant is $\lambda = \ln(\varphi) / \tau \approx 0.481 / \tau$.
+**Under sustained neglect.** Because each missed checkpoint regresses the stage ($r \leftarrow \max(r-1, 1)$), intervals shrink as neglect continues: $\tau F_r, \tau F_{r-1}, \dots, \tau F_1$. After $k \le r$ consecutive misses from stage $r$, salience is $S_0 \varphi^{-k}$ and the elapsed time is
 
-**Unification with FMG-S:** The continuous function evaluated at Fibonacci checkpoints recovers the discrete schedule asymptotically. For large $n$:
+$$T_k = \tau \sum_{i=r-k+1}^{r} F_i = \tau \left(F_{r+2} - F_{r-k+2}\right)$$
 
-$$\frac{S(F_{n+1})}{S(F_n)} = \varphi^{-(F_{n+1} - F_n)/\tau} = \varphi^{-F_{n-1}/\tau}$$
+using the identity $\sum_{i=1}^{m} F_i = F_{m+2} - 1$. Once the node reaches stage 1, it loses $\varphi^{-1}$ every $\tau$ events, so the tail is a plain exponential, $S(t) \propto \varphi^{-t/\tau}$. Neglected memories therefore **forget at an accelerating rate**: they hold steady for a long time while established, then fall away quickly once reinforcement stops.
 
-As $n \to \infty$, $F_{n-1}/F_n \to \varphi^{-1}$, so the ratio of salience between successive checkpoints converges to:
+**Bounded deletion time.** This gives FMG-S a concrete, checkable privacy property. Let $k^* = \lceil \log_\varphi (S_0 / S_{\min}) \rceil$ be the number of misses needed to fall below the pruning threshold. A node at stage $r$ that receives no further reinforcement is pruned after exactly
 
-$$\frac{S(F_{n+1})}{S(F_n)} \to \varphi^{-F_n / (\varphi \cdot \tau)}$$
+$$T_{\text{prune}} = \begin{cases} \tau\,(F_{r+2} - F_{r-k^*+2}) & k^* \le r \\ \tau\,(F_{r+2} - 1 + k^* - r) & k^* > r \end{cases}$$
 
-This convergence demonstrates that **the proportional decay per Fibonacci interval stabilizes** as the schedule matures — the system's forgetting curve becomes self-similar, decaying by the same relative proportion at every successive stage. This is the mathematical basis for FMG's architectural elegance.
+interaction-events. Every unreinforced memory is deleted within a bound that is known in advance from its stage, $\tau$ and $S_{\min}$.
+
+#### 3.4.1 Alternative: a non-regressing schedule (power-law decay)
+
+If a missed checkpoint *advanced* the stage instead of regressing it ($r \leftarrow r + 1$), the intervals would keep widening by a factor approaching $\varphi$. Since $F_n \approx \varphi^n / \sqrt{5}$, after $k$ misses from stage 1 the elapsed time is $T_k \approx \tau \varphi^{k+2}/\sqrt{5}$ while $S = S_0 \varphi^{-k}$, giving
+
+$$S(t) \approx S_0 \cdot \frac{\varphi^2}{\sqrt{5}} \cdot \frac{\tau}{t}$$
+
+This is a **power law**, which is scale-invariant (truly self-similar) and closer to the power-law forgetting observed in human memory (Wixted & Ebbesen, 1991). The trade-off is privacy: pruning time grows exponentially in $k^*$, so neglected memories linger far longer. Which schedule better serves a companion — faster, bounded deletion or more human-like retention — is an empirical question, and both variants are evaluated in the Seon memory benchmark.
 
 ### 3.5 FMG-T: Graph Topology and Fibonacci Branching
 
@@ -242,7 +247,7 @@ The Open-access, Monetizable, Loyal (OML) primitive (Cheng et al., 2025) enforce
 
 The Fibonacci Memory Graph framework addresses a formally unresolved gap in the Seon architecture: the absence of a principled memory decay and retrieval-priority mechanism. By unifying the Fibonacci heap (FMG-H), Fibonacci-interval decay schedule (FMG-S), golden ratio decay function (FMG-φ), and Fibonacci branching topology (FMG-T) into a single coherent framework, FMG provides an architecture in which forgetting is not a maintenance task but a structural property. Memories accumulate salience through reinforcement, decay toward deletion through neglect, and organize themselves into a priority-ordered graph that exposes the most salient context to RAG retrieval at minimal computational cost.
 
-This design is particularly well-suited to the Seon's sovereign edge intelligence paradigm, where privacy is not merely a policy commitment but an architectural guarantee. A FMG-governed knowledge graph is self-minimising, self-organising, and self-similar — properties that align the AI companion's inner life with the cognitive patterns of the human it serves.
+This design is particularly well-suited to the Seon's sovereign edge intelligence paradigm, where privacy is not merely a policy commitment but an architectural guarantee. A FMG-governed knowledge graph is self-minimising and self-organising, with a provable bound on how long any neglected memory survives — properties that align the AI companion's inner life with the cognitive patterns of the human it serves.
 
 For full architectural context, see the Seon White Paper (The Seon Project, n.d.) and the companion papers *Sovereignty in the Age of Cognitive Extractivism* and *Effective AI Companions: Psychological Effects of Seon-Style AI Companions*.
 
@@ -259,4 +264,5 @@ For full architectural context, see the Seon White Paper (The Seon Project, n.d.
 - Leitner, Sebastian. 1972. *So lernt man lernen: Der Weg zum Erfolg*. Freiburg im Breisgau: Herder.
 - Qin, Ruiyang, et al. 2024. "Robust Implementation of Retrieval-Augmented Generation on Edge-based Computing-in-Memory Architectures." *arXiv preprint* arXiv:2405.04700.
 - The Seon Project. n.d. *White Paper: The Seon Project — The AI Companion*. Unpublished manuscript.
+- Wixted, John T., and Ebbe B. Ebbesen. 1991. "On the Form of Forgetting." *Psychological Science* 2, no. 6: 409–415.
 - Wozniak, Piotr A. 1990. "Optimization of Learning." MS thesis, University of Technology, Poznań. https://www.supermemo.com/en/blog/application-of-a-computer-to-improve-the-results-obtained-in-working-with-the-supermemo-method
